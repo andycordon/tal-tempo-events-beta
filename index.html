@@ -1,13 +1,299 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello Tal Tempo Events</h1>
-    <p>It all starts here</p>
-</body>
+    <link rel="stylesheet" href="./style.css?v=1.0">
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon">
+    <link rel="preload" href="./img/logo.webp" as="image">
+    <link rel="preload" href="https://fonts.cdnfonts.com/css/arial-rounded-mt-bold" as="style">
+    <link href="https://fonts.cdnfonts.com/css/arial-rounded-mt-bold" rel="stylesheet">
+        <title>Accueil - Tal Tempo Events</title>
+    <meta name="description" content="Texte court de présentation du TTE">
+  </head>
+  <body>
+    <!-- Bar de navigation -->
+    <header>
+      <a href="./index.html">
+        <img
+          class="logo"
+          src="./img/logo.webp"
+          alt="Logo de Tal Tempo Events" loading="eager"
+        >
+        <p>Tal Tempo Events</p>
+      </a>
+      <input type="checkbox" id="check">
+      <label for="check" class="buttonMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <a class="menu-active" href="index.html">Accueil</a>
+        <a href="html/artistes.html">Les artistes</a>
+        <a href="html/services.html">Nos services</a>
+        <a href="html/portfolio.html">Portfolio</a>
+        <a href="html/actualites.html">Actualités</a>
+        <a href="html/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- 1.Accueil -->
+    <section id="section1">
+      
+      <div class="logo-rotate">
+        <img class="logoAccueil" src="./img/logo.webp" alt="Logo de Tal Tempo Events" loading="eager">
+        <!-- <img class="baton" src="./img/baton.webp" alt="Logo de Tal Tempo Events" loading="eager"> -->
+      </div>
+      <div class="txt-button-decouverte">
+        <p class="bienvenue">Bienvenue chez</p>
+        <h1>
+          Tal Tempo Events
+        </h1>
+        <a class="buttonDecouverte" href="#section2" aria-label="Venez nous découvrir">Venez nous découvrir</a>
+      </div>
+    </section>
+
+    <!-- 2.Présentation du club
+    <section id="section2">
+      <h1>LE CLUB</h1>
+      <article>
+        <img
+        src="./img/bienvenue2.webp"
+        alt="Twirlers du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine en position de présentation" loading="lazy"
+        >
+        <h2>
+          Bienvenue
+        </h2>
+      
+        <p>
+          Un lieu où la passion pour le twirling s'exprime avec grâce, le Twirling Club Macairois.
+          <br><br>
+          Notre club, basé à Saint-Macaire-en-Mauges, offre bien plus qu'un simple lieu d'entraînement.
+          
+          Depuis notre création, nous nous engageons dans des entraînements de qualité et participons activement à des compétitions régionales et nationales, repoussant constamment nos limites.
+          <br>
+          <br>
+          Nos membres talentueux et nos nombreux titres prestigieux reflètent notre dévouement et notre esprit d'équipe.
+          Rejoignez-nous dans cette aventure artistique exceptionnelle.
+        </p>
+      </article>
+      <a href="html/le-club.html" class="buttonPlus" aria-label="En savoir plus sur le club">En savoir plus</a>
+    </section>
+
+    <!-- 3.A la une -->
+    <!-- <section id="section3">
+      <h1>À LA UNE</h1>
+
+
+      <article class="right-article">
+        <h2>Championnat Nat. Indiv.</h2>
+        <p class="date-article"><em>13 et 14 avril</em></p>
+        <img
+        src="./img/articles/2024-04-13-championnat-national-individuels.webp"
+        alt="Affiche du Championnat Interdépartemental Individuel du 13 et 14 avril 2024 à La Motte Servolex, 73290" loading="lazy"
+      >
+        <p>Découvrez le Championnat National Individuel de Twirling Bâton 2024 ! Cet événement, organisé par l'Etoile Motteraine, se tiendra du 13 au 14 avril à La Motte Servolex, 73290.</p>
+      </article>
+
+
+      <article class="left-article">
+        <h2>Tickets Sport</h2>
+        <p class="date-article"><em>30 avril</em></p>
+        <img
+          src="./img/articles/2024-04-30-article-tickets-sport.webp"
+          alt="Affiche des Tickets Sport du 30 avril 2024 au Twirling Club Macairois">
+          <p>Les Tickets sports et culture reviennent du 22 avril au 3 mai 2024. Ils permettent aux enfants de 3 à 12 ans de découvrir 2 activités proposées par les nombreuses associations de Sèvremoine</p>
+        </article>
+      <a href="html/a-la-une.html" class="buttonPlus" aria-label="Plus d'actualités">Plus d'actualités</a>
+    
+    
+    </section> -->
+    
+    <!-- 4.Les entrainements -->
+    <!-- <section id="section4">
+      <h1>LES ENTRAINEMENTS</h1>
+      <article>
+        <img
+        src="./img/entrainement.webp"
+        alt="Entraînement des twirlers du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"
+      >
+      <h2>Toutes catégories</h2>
+      <p>Au Twirling Club Macairois, nous proposons des séances d'entraînement adaptées à chaque catégorie, offrant une attention personnalisée et un développement adapté à chaque membre.
+        Nous mettons l'accent sur la structure, la discipline et la progression dans la pratique du twirling bâton.
+        <br>
+        <br>
+        Rejoignez notre club pour bénéficier d'un encadrement dédié à votre catégorie, favorisant le développement de vos compétences dans un environnement propice à l'épanouissement artistique.</p>
+    </article>
+      <a href="html/entrainements.html" class="buttonPlus" aria-label="Voir les créneaux d'entraînement">Voir les créneaux</a>
+    </section>
+     -->
+    <!-- 6.Les tops adresses -->
+    
+    <!-- 5.Infos pratiques -->
+    <!-- <section id="section5">
+      <h1>INFOS PRATIQUES</h1>
+      <article>
+        <img
+        src="./img/infos.webp"
+        alt="Catégorie Infos Pratiques : Renseignements utiles illustrés par le panneau 'i'" loading="lazy"
+        >
+        <h2>Des questions ?</h2>
+        <p>
+          Des interrogations sur le twirling bâton ?
+          <br> Trouvez les réponses essentielles dans notre section Infos Pratiques, couvrant une gamme complète de sujets liés au twirling.
+          <br>
+          <br>
+          De l'équipement aux horaires d'entraînement, notre guide complet est là pour vous accompagner à chaque étape de votre parcours dans le monde captivant du twirling bâton.
+          <br>
+          <br>
+          Explorez et contactez-nous pour toute question. Nous sommes là pour enrichir votre expérience twirling.
+        </p>
+      </article>
+      <a href="html/infos-pratiques.html" class="buttonPlus" aria-label="Obtenir des réponses aux questions fréquentes">Des réponses</a>
+    </section> -->
+    <!-- <section id="section6">
+      <h1>TOP ADRESSES</h1>
+      <article>
+        <img
+        src="./img/boutique.webp"
+        alt="Catégorie Top Adresse : Bons plans et partenaires du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"
+      >
+      <h2>Bons plans et partenaires</h2>
+      <p>
+        Les "Bons Plans" vous dirigent vers des adresses incontournables pour l'achat du matériel essentiel au twirling, optimisant ainsi votre expérience dans notre domaine.
+        <br>  
+        <br>  
+        Dans la section "Partenaires", découvrez la liste de nos généreux mécènes. Ces partenaires essentiels soutiennent activement notre passion pour le twirling, renforçant ainsi notre engagement dans le monde du twirling bâton.
+      </p>
+      </article>
+      <a href="html/adresses.html" class="buttonPlus" aria-label="Voir les adresses">Voir les adresses</a>
+    </section> -->
+    <!-- 7.Coordonnée de contact club -->
+    <!-- <section id="section7">
+      <h1>CONTACT</h1>
+      <article>
+        <h2>Twirling Club Macairois</h2>
+          <a href="tel:+33625731769">
+            <i class="fa-solid fa-phone"></i>
+            <p>06 07 91 34 10</p>
+        </a>
+        <a href="mailto:twirling.macairois@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <p>twirling.macairois@gmail.com</p>
+      </a>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>
+        23 PL Henri Doizi
+        <br>
+        49450 Sèvremoine
+        <br>
+        St Macaire en Mauges
+        </p>
+  </article>
+  <div class="twirleuse-lancer">
+    <div class="elevation-baton">
+      <img
+      class="baton-twirleuse"
+      src="./img/baton.webp"
+      alt="Bâton en mouvement lancé par la Twirler du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"
+      >
+    </div>
+    <img
+    class="img-twirleuse"
+    src="./img/twirleuse.webp"
+    alt="Twirler en mouvement lançant le bâton au Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"
+    >
+  </div>
+  </section> -->
+
+  <!-- 8.Partenaires -->
+  <!-- <section id="section8">
+    <h1>NOS PARTENAIRES</h1>
+      <div class="logos">
+        <div class="logos-slide">
+          <a href="https://www.brangeon.fr/" target="_blank">
+          <img src="./img/partenaire-brangeon.webp" alt="Logo de Brangeon partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+          <a href="http://www.intermarche-saintandredelamarche.com/" target="_blank">
+            <img src="./img/partenaire-intermarche.webp" alt="Logo d'Intermarché, partenaire mécène du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+                <a href="https://www.facebook.com/p/Boulangerie-le-Printemps-100083097500652/" target="_blank">
+                <img src="./img/partenaire-printemps.webp" alt="Logo de la boulangerie Le partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+              </div>
+              <div class="logos-slide">
+          <a href="https://www.brangeon.fr/" target="_blank">
+          <img src="./img/partenaire-brangeon.webp" alt="Logo de Brangeon partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+          <a href="http://www.intermarche-saintandredelamarche.com/" target="_blank">
+            <img src="./img/partenaire-intermarche.webp" alt="Logo d'Intermarché, partenaire mécène du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+                <a href="https://www.facebook.com/p/Boulangerie-le-Printemps-100083097500652/" target="_blank">
+                <img src="./img/partenaire-printemps.webp" alt="Logo de la boulangerie Le partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+              </div>
+              <div class="logos-slide">
+          <a href="https://www.brangeon.fr/" target="_blank">
+          <img src="./img/partenaire-brangeon.webp" alt="Logo de Brangeon partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+          <a href="http://www.intermarche-saintandredelamarche.com/" target="_blank">
+            <img src="./img/partenaire-intermarche.webp" alt="Logo d'Intermarché, partenaire mécène du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+                <a href="https://www.facebook.com/p/Boulangerie-le-Printemps-100083097500652/" target="_blank">
+                <img src="./img/partenaire-printemps.webp" alt="Logo de la boulangerie Le partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+              </div>
+              <div class="logos-slide">
+          <a href="https://www.brangeon.fr/" target="_blank">
+          <img src="./img/partenaire-brangeon.webp" alt="Logo de Brangeon partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+          <a href="http://www.intermarche-saintandredelamarche.com/" target="_blank">
+            <img src="./img/partenaire-intermarche.webp" alt="Logo d'Intermarché, partenaire mécène du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+            <a href="https://www.facebook.com/p/Boulangerie-le-Printemps-100083097500652/" target="_blank">
+              <img src="./img/partenaire-printemps.webp" alt="Logo de la boulangerie Le partenaire du Twirling Club Macairois de Saint-Macaire-en-Mauges Sèvremoine" loading="lazy"></a>
+            </div>
+    </div>
+  </section> -->
+
+  <!-- Zone du footer -->
+  <footer>
+    <div class="pictoAlig">
+      Rejoins nous sur
+        <a
+          href="#" aria-label="Venez visiter notre Facebook"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a
+          href="#" aria-label="Venez visiter notre Instagram"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="#" aria-label="Venez visiter notre Youtube"
+          target="_blank"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <!-- <a
+          href="https://www.youtube.com/@TwirlingClubMacairois" aria-label="Venez visiter notre Youtube"
+          target="_blank"
+        >
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+        <a
+          href="https://discord.gg/hkHCjCnDjn" aria-label="Venez visiter notre Discord"
+          target="_blank"
+        >
+        <i class="fa-brands fa-discord"></i>
+      </a> -->
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="html/artistes.html">Les artistes</a></li>
+        <li><a href="html/services.html">Nos services</a></li>
+        <li><a href="html/portfolio.html">Portfolio</a></li>
+        <li><a href="html/actualites.html">Actualités</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+      <p class="copyrigth">
+        Version 1.0 - Tal Tempo Events ©2024 - Par Andy Cordon
+      </p>
+    </footer>
+    <script async src="https://kit.fontawesome.com/325ecb5913.js" crossorigin="anonymous"></script>
+  </body>
 </html>
