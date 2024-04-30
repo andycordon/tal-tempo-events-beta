@@ -194,12 +194,12 @@ Noir : #000000 */
   }
     @keyframes rotation {
       to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
       }
     }
     @keyframes rotate {
       to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
       }
     }
     @keyframes elevation {
