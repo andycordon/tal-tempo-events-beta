@@ -256,7 +256,7 @@ Noir : #000000 */
   }
   h2 {
     font-size: 26px;
-    color: #e6dbc6;
+    color: #fff;
   }
   h3 {
     font-size: 22px;
@@ -274,7 +274,7 @@ Noir : #000000 */
   article img {
     width:100%;
     border-radius: 25px;
-    border: 3px solid #e6dbc6;
+    border: 3px solid #fff;
     padding: 5px;
   }
   
@@ -513,7 +513,7 @@ Noir : #000000 */
   .buttonPlus {
     display: inline-block;
     background-color: #FF2D43;
-    color: #fff;
+    color: #000;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
