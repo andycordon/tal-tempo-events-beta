@@ -72,7 +72,7 @@ Noir : #000000 */
   }
   #check:checked ~ nav {
     background-color: #000;
-    height: 295px;
+    height: 345px;
     
   }
   nav a {
