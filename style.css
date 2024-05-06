@@ -139,35 +139,102 @@ Noir : #000000 */
   
   
   
-  .img-twirleuse {
-    width: 290px;
+  .img-mic-danse {
+    width: 150px;
     margin: 20px 0;
-    animation: incline 3000ms linear infinite;
+    animation: moved 5000ms linear infinite;
   }
   .contact-infos {
     z-index: 2;
   }
   
-  .twirleuse-lancer {
+  .note-move {
     display: flex;
     justify-content: center;
   }
-  .vinyle-twirleuse {
+  .note1 {
     position: absolute;
-    margin: 43px 0 0 -143px;
-    animation: rotation 400ms linear infinite;
-    width: 110px;
+    margin: 20px 0 0 15px;
+    animation: rotate 8000ms linear infinite;
+    width: 40px;
   }
-  .elevation-vinyle {
+  .note2 {
+    position: absolute;
+    margin: 20px 0 0 -15px;
+    animation: rotate 8000ms linear infinite;
+    width: 18px;
+  }
+  .note3 {
+    position: absolute;
+    margin: 20px 0 0 -45px;
+    animation: rotate 8000ms linear infinite;
+    width: 20px;
+  }
+  .note4 {
+    position: absolute;
+    margin: 20px 0 0 15px;
+    animation: rotate 8000ms linear infinite;
+    width: 40px;
+  }
+  .note5 {
+    position: absolute;
+    margin: 20px 0 0 -15px;
+    animation: rotate 8000ms linear infinite;
+    width: 18px;
+  }
+  .note6 {
+    position: absolute;
+    margin: 20px 0 0 -45px;
+    animation: rotate 8000ms linear infinite;
+    width: 20px;
+  }
+  .note-elevation1 {
     z-index: -100;
     position: absolute;
     margin:-45px 0px 0px -25px;
-    animation: elevation 1500ms alternate infinite;
+    animation: elevation-note 8000ms infinite ease-in-out;
+    
   }
-  #contact .elevation-vinyle {
+  .note-elevation2 {
     z-index: -100;
     position: absolute;
     margin:-45px 0px 0px -25px;
+    animation: elevation-note 8000ms infinite ease-in-out ;
+    animation-delay: 1000ms;
+  }
+  .note-elevation3 {
+    z-index: -100;
+    position: absolute;
+    margin:-45px 0px 0px -25px;
+    animation: elevation-note 8000ms infinite ease-in-out;
+    animation-delay:2500ms;
+  }
+  .note-elevation4 {
+    z-index: -100;
+    position: absolute;
+    margin:-45px 0px 0px -25px;
+    animation: elevation-note 8000ms infinite ease-in-out;
+    animation-delay: 4000ms;
+    
+  }
+  .note-elevation5 {
+    z-index: -100;
+    position: absolute;
+    margin:-45px 0px 0px -15px;
+    animation: elevation-note 8000ms infinite ease-in-out ;
+    animation-delay: 6500ms;
+  }
+  .note-elevation6 {
+    z-index: -100;
+    position: absolute;
+    margin:-45px 0px 0px 30px;
+    animation: elevation-note 8000ms infinite ease-in-out;
+    animation-delay:8000ms;
+  }
+  #contact .note-elevation {
+    z-index: -100;
+    position: absolute;
+    margin:-45px 0px 0px 0px;
     animation: elevation-contact 1500ms alternate infinite;
 }
 @keyframes moved {
@@ -202,9 +269,14 @@ Noir : #000000 */
         transform: rotate(-360deg);
       }
     }
-    @keyframes elevation {
+    @keyframes elevation-note {
       to {
         margin-top: -500px;
+        opacity: 0;
+      }
+      from {
+        margin-top: 0px;
+        opacity: 1;
       }
     }
     @keyframes elevation-contact {
@@ -1483,13 +1555,13 @@ Noir : #000000 */
       margin-top: -850px;
     }
   }
-  .vinyle-twirleuse {
+  .note {
     position: absolute;
     width: 110px;
     margin: 44px 0 0 -156px;
   }
   
-  .img-twirleuse {
+  .img-mic-danse {
     width: 320px;
   }
   
@@ -1688,10 +1760,10 @@ Noir : #000000 */
     }
   
     /*Desk lancer de vinyle twirleuse*/
-    .elevation-vinyle {
+    .note-elevation {
       margin:-50px 0px 0px 320px;
     }
-    #contact .elevation-vinyle {
+    #contact .note-elevation {
       margin:-50px 0px 0px 320px;
     }
     
@@ -1825,7 +1897,7 @@ Noir : #000000 */
           margin-top: -850px;
         }
       }
-      .vinyle-twirleuse {
+      .note {
         position: absolute;
         width: 110px;
         margin: 50px 0 0 -325px;
