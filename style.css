@@ -140,9 +140,11 @@ Noir : #000000 */
   
   
   .img-mic-danse {
-    width: 150px;
+    width: 160px;
     margin: 20px 0;
-    animation: moved 5000ms linear infinite;
+    animation: moved 8000ms linear infinite;
+    opacity: 1;
+
   }
   .contact-infos {
     z-index: 2;
@@ -152,85 +154,110 @@ Noir : #000000 */
     display: flex;
     justify-content: center;
   }
+
+
+   .note2, .note4, .note6, .note8,.note10, .note12 {
+    position: absolute;
+    z-index: -100;
+    animation: elevation-note 8000ms infinite ;
+  }
+  .note1, .note3, .note5, .note7, .note9, .note11 {
+    position: absolute;
+    z-index: -100;
+    animation: elevation-note2 8000ms infinite ;
+  }
+  
   .note1 {
-    position: absolute;
-    margin: 20px 0 0 15px;
-    animation: rotate 8000ms linear infinite;
-    width: 40px;
-  }
-  .note2 {
-    position: absolute;
-    margin: 20px 0 0 -15px;
-    animation: rotate 8000ms linear infinite;
-    width: 18px;
-  }
-  .note3 {
-    position: absolute;
-    margin: 20px 0 0 -45px;
-    animation: rotate 8000ms linear infinite;
-    width: 20px;
+    margin: 26px 0 0 59px;
+    width: 30px;
   }
   .note4 {
-    position: absolute;
-    margin: 20px 0 0 15px;
-    animation: rotate 8000ms linear infinite;
-    width: 40px;
-  }
-  .note5 {
-    position: absolute;
-    margin: 20px 0 0 -15px;
-    animation: rotate 8000ms linear infinite;
-    width: 18px;
+    margin: 26px 0 0 -80px;
+    width: 22px;
+    animation-delay: 1200ms;
   }
   .note6 {
-    position: absolute;
-    margin: 20px 0 0 -45px;
-    animation: rotate 8000ms linear infinite;
-    width: 20px;
+    margin: 120px 0 0 -140px;
+    width: 16px;
+    animation-delay: 2400ms;
   }
-  .note-elevation1 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation-note 8000ms infinite ease-in-out;
-    
+  .note2 {
+    margin: 25px 0 0 -18px;
+    width: 34px;
+    animation-delay: 3000ms;
   }
-  .note-elevation2 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation-note 8000ms infinite ease-in-out ;
-    animation-delay: 1000ms;
+  .note3 {
+    margin: 70px 0 0 -110px;
+    width: 16px;
+    animation-delay: 3600ms;
   }
-  .note-elevation3 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation-note 8000ms infinite ease-in-out;
-    animation-delay:2500ms;
-  }
-  .note-elevation4 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation-note 8000ms infinite ease-in-out;
+  .note5 {
+    margin: 28px 0 0 20px;
+    width: 23px;
     animation-delay: 4000ms;
-    
   }
-  .note-elevation5 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -15px;
-    animation: elevation-note 8000ms infinite ease-in-out ;
-    animation-delay: 6500ms;
+  .note7 {
+    margin: 26px 0 0 59px;
+    width: 30px;
+    animation-delay: 4600ms;
   }
-  .note-elevation6 {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px 30px;
-    animation: elevation-note 8000ms infinite ease-in-out;
-    animation-delay:8000ms;
+  .note10 {
+    margin: 26px 0 0 -80px;
+    width: 22px;
+    animation-delay: 5100ms;
   }
+  .note12 {
+    margin: 120px 0 0 -140px;
+    width: 16px;
+    animation-delay: 5700ms;
+  }
+  .note8 {
+    margin: 25px 0 0 -18px;
+    width: 34px;
+    animation-delay: 6000ms;
+  }
+  .note9 {
+    margin: 70px 0 0 -110px;
+    width: 16px;
+    animation-delay: 6800ms;
+  }
+  .note11 {
+    margin: 28px 0 0 20px;
+    width: 23px;
+    animation-delay: 7500ms;
+  }
+
+  @keyframes elevation-note {
+    0% {
+      transform: rotate(0deg);
+      margin-top:30px;
+      opacity: 1;
+    }
+      20% {
+        opacity: 1;
+    }
+      100% {
+        transform: rotate(270deg);
+        margin-top: -500px;
+        opacity: 0;
+    }
+  }
+  @keyframes elevation-note2 {
+    0% {
+      transform: rotate(0deg);
+      margin-top:30px;
+      opacity: 1;
+    }
+      20% {
+        opacity: 1;
+    }
+      100% {
+        transform: rotate(-270deg);
+        margin-top: -500px;
+        opacity: 0;
+    }
+  }
+ 
   #contact .note-elevation {
     z-index: -100;
     position: absolute;
@@ -269,14 +296,9 @@ Noir : #000000 */
         transform: rotate(-360deg);
       }
     }
-    @keyframes elevation-note {
+    @keyframes rotate-note {
       to {
-        margin-top: -500px;
-        opacity: 0;
-      }
-      from {
-        margin-top: 0px;
-        opacity: 1;
+        transform: rotate(-90deg);
       }
     }
     @keyframes elevation-contact {
