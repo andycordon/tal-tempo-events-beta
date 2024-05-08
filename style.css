@@ -275,11 +275,7 @@ iframe {
       }
     }
 
-/*espacement logo au bouton 'venez nous decouvrir'*/  
-  .bienvenue{
-    margin: 30px 0 -20px 0;
-    padding: 0;
-  }
+
   
 
   /*Mobile style*/
@@ -320,6 +316,109 @@ iframe {
         transform: rotate(0deg);
     }
   }
+
+  /*espacement logo au bouton 'venez nous decouvrir'*/  
+  .bienvenue{
+    margin: 30px 0 -20px 0;
+    padding: 0;
+  }
+
+  /* Section 1 ACCUEIL mobile*/
+  #section1 {
+    height: 100vh;
+  }
+  #section1 h1 {
+    margin: 30px 0 60px 0;
+    color: #fff;
+    -webkit-text-stroke: 0px;  
+  }
+  #section1 .buttonDecouverte {
+    background: linear-gradient(to top right, #FF2D43, 80%, #001F3F);
+    color: black;
+    border: 2px solid #fff;
+    box-shadow: -1px 3px 5px #818181;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  #section1 .buttonDecouverte:hover {
+    background: linear-gradient(to top right, #FF2D43, 20%, #001F3F);
+    color: #fff;
+    box-shadow: none;
+    border: 2px solid #000;
+    transition: 400ms ease-out;
+  }
+
+  
+  /* Section 2 Les artistes mobile */
+  #section2 h1 {
+    padding: 100px 0 0 0;
+  }
+  #section2 p {
+    margin: 10px 0;
+  }
+  #section2 .buttonPlus {
+    margin: 20px 0;
+  }
+  
+  /* Section 3 Nos services mobile */
+  #section3{
+    margin: 90px 0 0px 0;
+  }
+  #section3 .buttonPlus {
+    margin: 20px 0;
+  }
+  
+  /* Section 4 Portfolio mobile*/
+  #section4 {
+    margin: 90px 0 0 0;
+  }
+  #section4 .buttonPlus {
+    margin: 20px 0;
+  }
+  
+  /* Section 5 Actualités mobile*/
+  #section5 h1 {
+    margin: 90px 0 0px 0;
+  }
+  #section5 .buttonPlus {
+    margin: 20px 0;
+  }
+
+  /* Section 6 FAQ mobile*/
+  #section6 h1 {
+    margin: 90px 0 0px 0;
+  }
+  #section6 .buttonPlus {
+    margin: 20px 0;
+  }
+  
+  /* Section 7 Contact mobile*/
+  #section7 h1{
+      margin: 90px 0 30px 0;
+    }
+    .fa-phone, .fa-location-dot, .fa-envelope{
+      color: #FF2D43;
+      margin: 30px 0px 10px 0;
+      font-size: 22px;
+    }
+  #section7 a{
+    color: #fff;
+  }
+  #section7 a:hover {
+    transition: all 400ms ease-out;
+    color:#FF2D43;
+    opacity: 0.7;
+  }
+    #section7{
+      margin: 90px 0 0px 0;
+    }
+  
+/*all h2 accueil margin*/
+    #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
+      margin:10px 0;
+    }
+
   /*adaptation animation bas de page*/
   .img-mic-danse {
     width: 160px;
@@ -433,160 +532,6 @@ iframe {
     }
   }
 
-
-
-
-  /*REFACTORY HERE*/
-  
-  /* Section 1 ACCUEIL mobile*/
-  #section1 {
-    height: 100vh;
-  }
-  #section1 h1 {
-    margin: 30px 0 60px 0;
-    color: #fff;
-    -webkit-text-stroke: 0px;  
-  }
-  #section1 .buttonDecouverte {
-    background: linear-gradient(to top right, #FF2D43, 80%, #001F3F);
-    color: black;
-    border: 2px solid #fff;
-    box-shadow: -1px 3px 5px #818181;
-    padding: 15px 20px;
-    border-radius: 30px;
-    font-weight: 600;
-  }
-  #section1 .buttonDecouverte:hover {
-    background: linear-gradient(to top right, #FF2D43, 20%, #001F3F);
-    color: #fff;
-    box-shadow: none;
-    border: 2px solid #000;
-    transition: 400ms ease-out;
-  }
-  
-  
-  /* Section 2 LE CLUB mobile */
-  #section2 h1 {
-    padding: 100px 0 0 0;
-  }
-  #section2 p {
-    margin: 10px 0;
-  }
-  #section2 .buttonPlus {
-    margin: 20px 0;
-  }
-  
-  
-  /* Section 3 A LA UNE mobile */
-  #section3{
-    margin: 90px 0 0px 0;
-  }
-  #section3 .buttonPlus {
-    margin: 20px 0;
-  }
-  
-  
-  /* Section 4 TOP ADRESSES mobile*/
-  #section4 {
-    margin: 90px 0 0 0;
-  }
-  #section4 .buttonPlus {
-    margin: 20px 0;
-  }
-  
-  
-  /* Section 5 LES ENTRAINEMENTS mobile*/
-  #section5 h1 {
-    margin: 90px 0 0px 0;
-  }
-  #section5 .buttonPlus {
-    margin: 20px 0;
-  }
-  /* Section 6 INFOS PRATIQUES mobile*/
-  #section6 h1 {
-    margin: 90px 0 0px 0;
-  }
-  #section6 .buttonPlus {
-    margin: 20px 0;
-  }
-  
-  /* Section 6 CONTACT mobile*/
-  #section7 h1{
-      margin: 90px 0 30px 0;
-    }
-    .fa-phone, .fa-location-dot, .fa-envelope{
-      color: #FF2D43;
-      margin: 30px 0px 10px 0;
-      font-size: 22px;
-    }
-  #section7 a{
-    color: #fff;
-  }
-  #section7 a:hover {
-    transition: all 400ms ease-out;
-    color:#FF2D43;
-    opacity: 0.7;
-  }
-    #section7{
-      margin: 90px 0 0px 0;
-    }
-  
-    /* Section 8 NOS PARTENAIRE mobile*/
-    #section8 h1 {
-      margin:40px 0 0px 0;
-    }
-    #section8 .logos {
-      overflow: hidden;
-      padding: 20px 0;
-      white-space: nowrap;
-      position: relative;
-    }
-    
-    #section8 .logos:before,
-    .logos:after {
-      position: absolute;
-      top: 0;
-      content: "";
-      z-index: 1;
-      margin-top: 40px;
-      width: 40px;
-    }
-    .logos::before {
-      left: 0;
-      background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
-    }
-    .logos::after {
-      right: 0;
-      background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
-    }
-    #section8 .logos:hover .logos-slide {
-      animation-play-state: paused;
-    }
-    
-    #section8 .logos-slide {
-      display: inline-block;
-      animation: 10000ms slide infinite linear;
-    }
-    
-    #section8 .logos-slide img {
-      height: 160px;
-      margin: 20px 10px;
-      padding: 5px;
-      border-radius: 100%;
-      border: 3px solid #e6dbc6;
-    }
-    @keyframes slide {
-      from {
-        transform: translateX(0);
-      }
-      to {
-        transform: translateX(-100%);
-      }
-    }
-  
-    #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
-      margin:10px 0;
-    }
     /*Contact mobile*/
     #contact .note2,#contact .note4,#contact .note6,#contact .note8,#contact .note10, #contact .note12 {
       position: absolute;
@@ -687,7 +632,10 @@ iframe {
           opacity: 0;
       }
     }
-  
+
+
+    
+    /*REFACTORY HERE*/
   
   
   
