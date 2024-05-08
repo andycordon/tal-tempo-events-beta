@@ -143,8 +143,6 @@ Noir : #000000 */
     width: 160px;
     margin: 20px 0;
     animation: moved 8000ms linear infinite;
-    opacity: 1;
-
   }
   .contact-infos {
     z-index: 2;
@@ -160,89 +158,78 @@ Noir : #000000 */
     position: absolute;
     z-index: -100;
     animation: elevation-note 8000ms infinite ;
+    opacity: 0;
   }
   .note1, .note3, .note5, .note7, .note9, .note11 {
     position: absolute;
     z-index: -100;
     animation: elevation-note2 8000ms infinite ;
+    opacity: 0;
   }
   
   .note1 {
-    margin: 26px 0 0 59px;
+    margin: -8px 0 0 40px;
     width: 30px;
-    opacity: 0;
   }
   .note4 {
-    margin: 26px 0 0 -80px;
+    margin: -10px 0 0 -80px;
     width: 22px;
     animation-delay: 1200ms;
-    opacity: 0;
   }
   .note6 {
-    margin: 120px 0 0 -140px;
+    margin: 40px 0 0 -140px;
     width: 16px;
     animation-delay: 2400ms;
-    opacity: 0;
   }
   .note2 {
-    margin: 25px 0 0 -18px;
+    margin: -18px 0 0 -18px;
     width: 34px;
     animation-delay: 3000ms;
-    opacity: 0;
   }
   .note3 {
-    margin: 70px 0 0 -110px;
+    margin: 70px 0 0 -160px;
     width: 16px;
     animation-delay: 3600ms;
-    opacity: 0;
   }
   .note5 {
-    margin: 28px 0 0 20px;
+    margin: -15px 0 0 -37px;
     width: 23px;
     animation-delay: 4000ms;
-    opacity: 0;
   }
   .note7 {
-    margin: 26px 0 0 59px;
+    margin: -10px 0 0 -100px;
     width: 30px;
     animation-delay: 4600ms;
-    opacity: 0;
   }
   .note10 {
-    margin: 26px 0 0 -80px;
+    margin: 10px 0 0 -130px;
     width: 22px;
     animation-delay: 5100ms;
-    opacity: 0;
   }
   .note12 {
-    margin: 120px 0 0 -140px;
+    margin: 90px 0 0 -165px;
     width: 16px;
     animation-delay: 5700ms;
-    opacity: 0;
   }
   .note8 {
-    margin: 25px 0 0 -18px;
+    margin: -12px 0 0 -80px;
     width: 34px;
     animation-delay: 6000ms;
-    opacity: 0;
   }
   .note9 {
-    margin: 70px 0 0 -110px;
+    margin: -8px 0 0 -110px;
     width: 16px;
     animation-delay: 6800ms;
-    opacity: 0;
   }
   .note11 {
-    margin: 28px 0 0 20px;
+    margin: -13px 0 0 20px;
     width: 23px;
     animation-delay: 7500ms;
-    opacity: 0;
   }
   
   @keyframes elevation-note {
     0% {
       transform: rotate(0deg);
-      margin-top:30px;
       opacity: 1;
     }
       20% {
@@ -257,7 +244,6 @@ Noir : #000000 */
   @keyframes elevation-note2 {
     0% {
       transform: rotate(0deg);
-      margin-top:30px;
       opacity: 1;
     }
       20% {
