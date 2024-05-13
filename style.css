@@ -653,7 +653,9 @@ iframe {
   /*Club carousel*/
 
   /*flip card + polaroid*/
+
   #artistes .flip-card {
+    
     background-color: transparent;
     width: 250px;
     height: 320px;
@@ -661,13 +663,17 @@ iframe {
     text-align: center;
     margin: 20px auto;
   }
-
+  
   #artistes .flip-card-front {
+    
     height: 100%;
     background: #fff;
     color: #001F3F;
     padding: 10px;
     box-shadow: -1px 3px 5px #818181;
+  }
+  #artistes .flip-card-front img{
+    border-radius: 0;
   }
 
   /*Club inclinaison polaroid*/
