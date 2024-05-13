@@ -737,10 +737,10 @@ iframe {
     font-size: 20px;
     opacity: 0.5;
   }
-  #artistes .club-ancre{
+  #artistes .artistes-ancre{
     color: #FF2D43;
   }
-  #artistes .club-ancre:hover{
+  #artistes .artistes-ancre:hover{
     opacity: 0.5;
     transition: all 400ms ease-in;
   }
