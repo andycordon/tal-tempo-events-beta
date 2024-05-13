@@ -643,7 +643,7 @@ iframe {
   
   
   
-  /*Club*/
+  /*Artistes*/
   #artistes h1 {
     padding: 100px 0 0 0;  
   }
@@ -651,68 +651,25 @@ iframe {
   margin:30px 0 10px 0;
   }
   /*Club carousel*/
-  #artistes .carousel-item {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 450px;
-    flex: 1 0 250px;
-    margin: 10px 0 20px 15px;
-    scroll-snap-align: start;
-  }
-  #artistes .carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 15px;
-  }
-  #artistes .carousel img {
-    width:100%
-  }
-  #artistes .fa-reply{
-    color: #000;
-    font-size: 30px;
-    margin: 0px 0px 0 180px;
-  }
+
   /*flip card + polaroid*/
   #artistes .flip-card {
     background-color: transparent;
     width: 250px;
     height: 320px;
     perspective: 1000px;
-  }
-  #artistes .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    margin: 20px auto;
   }
-  #artistes .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  /* #artistes .flip-card-front img {
-    width: 100%;
-  } */
-  #artistes .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
+
   #artistes .flip-card-front {
+    height: 100%;
     background: #fff;
-    color: #000;
+    color: #001F3F;
     padding: 10px;
     box-shadow: -1px 3px 5px #818181;
   }
-  #artistes .flip-card-back {
-    background-color: #fff;
-    color: #000;
-    transform: rotateY(180deg);
-    padding: 10px;
-    box-shadow: -1px 3px 5px #818181;
-  }
+
   /*Club inclinaison polaroid*/
   #artistes .pol1{
     transform: rotate(-3deg);
@@ -722,20 +679,6 @@ iframe {
   }
   #artistes .pol3{
     transform: rotate(-6deg);
-  }
-  #artistes .pol4{
-    transform: rotate(5deg);
-  }
-  #artistes .pol5{
-    transform: rotate(6deg);
-  }
-  #artistes .pol6{
-    transform: rotate(-4deg);
-  }
-  #artistes .fa-circle-plus{
-    margin-left: 210px;
-    font-size: 20px;
-    opacity: 0.5;
   }
   #artistes .artistes-ancre{
     color: #FF2D43;
