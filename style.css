@@ -637,11 +637,6 @@ iframe {
       }
     }
 
-
-    
-    /*REFACTORY HERE*/
-  
-  
   
   /*Artistes*/
   #artistes h1 {
@@ -650,12 +645,7 @@ iframe {
   #artistes h2 {
   margin:30px 0 10px 0;
   }
-  /*Club carousel*/
-
-  /*flip card + polaroid*/
-
   #artistes .flip-card {
-    
     background-color: transparent;
     width: 250px;
     height: 320px;
@@ -663,9 +653,7 @@ iframe {
     text-align: center;
     margin: 20px auto;
   }
-  
-  #artistes .flip-card-front {
-    
+  #artistes .flip-card-front { 
     height: 100%;
     background: #fff;
     color: #001F3F;
@@ -674,8 +662,9 @@ iframe {
   }
   #artistes .flip-card-front img{
     border-radius: 0;
+    padding:0px;
+    border: none;
   }
-
   /*Club inclinaison polaroid*/
   #artistes .pol1{
     transform: rotate(-3deg);
@@ -694,6 +683,9 @@ iframe {
     transition: all 400ms ease-in;
   }
   
+
+
+  /*REFACTORY HERE*/
   
   /*À la une*/
   #a-la-une h1 {
