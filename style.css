@@ -765,7 +765,7 @@ iframe {
     background-image: url("./img/entrainement-5.webp");
   }
   #services .section2-3{
-    background-image: linear-gradient(10deg, #FF2D43 , #001f3f );  
+    background: linear-gradient(to bottom right,#fff, #FF2D43 68%, #001f3f, #000);
     margin: 5px 0;
     padding: 0;
     display: flex;
@@ -774,20 +774,22 @@ iframe {
   #services .section2-3 p{
     margin: 15px 0 0 0;
   }
-
+  
   #services .section3-3{
+    background: linear-gradient(to bottom right,#fff, #FF2D43, #001f3f 32%, #000);
     border-radius: 0 20px 20px 0;
+    color: #fff;
   }
   #services .buttonPlus{
     margin: 20px 0 20px 0;
   }
-
-
-
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
 
 
 
