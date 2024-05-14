@@ -693,14 +693,14 @@ iframe {
 
   /*REFACTORY HERE*/
 
-  /*Entrainements*/
+  /*Services*/
   #services h1 {
     padding: 100px 0 0 0;  
   }
   #services h2{
     margin:20px 0 10px 0;
   }
-  /*Entrainement carousel*/
+  /*Services carousel*/
   #services .carousel-items {
     display: flex;
     overflow-x: scroll;
@@ -725,16 +725,12 @@ iframe {
     color: #000;
     margin: 5px;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   #services .section1-3{
     border-radius: 20px 0 0 20px;
   }
   #services h3 {
-    margin:20px 0 50px 0;
+    margin:20px 0px;
   }
   .fa-circle-arrow-right{
     font-size: 30px;
@@ -748,6 +744,17 @@ iframe {
     color: #001F3F;
     scale: 1.2;
     opacity: 0.9;
+  }
+  #services .section2-3{
+    background: linear-gradient(to top left,#fff, #FF2D43, #001f3f 32%, #000);
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+  }
+  #services .section3-3{
+    padding: 10px;
+    background: linear-gradient(to top left,#fff, #FF2D43 68%, #001f3f, #000);
+    border-radius: 0 20px 20px 0;
   }
   #services .img-1{
     background-image: url("./img/services-mariage.png");  
@@ -763,25 +770,6 @@ iframe {
   }
   #services .img-5{
     background-image: url("./img/entrainement-5.webp");
-  }
-  #services .section2-3{
-    background: linear-gradient(to bottom right,#fff, #FF2D43 68%, #001f3f, #000);
-    margin: 5px 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  #services .section2-3 p{
-    margin: 15px 0 0 0;
-  }
-  
-  #services .section3-3{
-    background: linear-gradient(to bottom right,#fff, #FF2D43, #001f3f 32%, #000);
-    border-radius: 0 20px 20px 0;
-    color: #fff;
-  }
-  #services .buttonPlus{
-    margin: 20px 0 20px 0;
   }
   
   
