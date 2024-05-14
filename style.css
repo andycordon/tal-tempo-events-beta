@@ -689,6 +689,124 @@ iframe {
 
 
   /*REFACTORY HERE*/
+
+  /*Entrainements*/
+  #services h1 {
+    padding: 100px 0 0 0;  
+  }
+  #services h2{
+    margin:20px 0 10px 0;
+  }
+  /*Entrainement carousel*/
+  #services .carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 20px;  
+  }
+  #services .carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex: 1 0 250px;
+    scroll-snap-align: start;
+  }
+  #services .no-flip-card {
+    display: flex;  
+    border: 3px solid #e6dbc6;
+    border-radius: 25px;
+  }
+  #services .no-flip-card-inner{
+    width: 320px;
+    height: 320px;
+    border: 1px #fff solid;
+    color: #000;
+    margin: 5px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #services .section1-3{
+    border-radius: 20px 0 0 20px;
+  }
+  #services h3 {
+    margin:20px 0 50px 0;
+  }
+  .fa-circle-arrow-right{
+    font-size: 30px;
+    position: relative;
+    margin: 60px 0 0 250px;
+    color: #FF2D43;
+    
+  }
+  .fa-circle-arrow-right:hover{
+    animation: bounce 500ms;
+    color: #FF2D43;
+    scale: 1.3;
+    opacity: 0.9;
+  }
+  #services .img-1{
+    background-image: url("./img/entrainement-3.webp");  
+  }
+  #services .img-2{
+    background-image: url("./img/entrainement-2.webp");
+  }
+  #services .img-3{
+    background-image: url("./img/entrainement-4.webp");
+  }
+  #services .img-4{
+    background-image: url("./img/entrainement-1.webp");
+  }
+  #services .img-5{
+    background-image: url("./img/entrainement-5.webp");
+  }
+  #services .section2-3{
+    background-image: linear-gradient(10deg, #FF2D43 , #e6dbc6 );  
+    margin: 5px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  #services .section2-3 p{
+    margin: 15px 0 0 0;
+  }
+  #services iframe{
+    border: none;
+    border: 1px #fff solid;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+  #services .section3-3{
+    border-radius: 0 20px 20px 0;
+  }
+  #services .section3-3 img{
+    border: none;
+    padding: 0;
+    border-radius: 0 20px 20px 0;
+  }
+  #services .buttonPlus{
+    margin: 20px 0 20px 0;
+  }
+  #services .regles p{
+    margin: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /*À la une*/
   #a-la-une h1 {
@@ -907,108 +1025,6 @@ iframe {
   }
   
   
-  /*Entrainements*/
-  #entrainements h1 {
-    padding: 100px 0 0 0;  
-  }
-  #entrainements h2{
-    margin:20px 0 10px 0;
-  }
-  /*Entrainement carousel*/
-  #entrainements .carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 0px 0px 10px 0px;
-    margin-bottom: 20px;  
-  }
-  #entrainements .carousel-item {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex: 1 0 250px;
-    scroll-snap-align: start;
-  }
-  #entrainements .no-flip-card {
-    display: flex;  
-    border: 3px solid #e6dbc6;
-    border-radius: 25px;
-  }
-  #entrainements .no-flip-card-inner{
-    width: 320px;
-    height: 320px;
-    border: 1px #fff solid;
-    color: #000;
-    margin: 5px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  #entrainements .section1-3{
-    border-radius: 20px 0 0 20px;
-  }
-  #entrainements h3 {
-    margin:20px 0 50px 0;
-  }
-  .fa-circle-arrow-right{
-    font-size: 30px;
-    position: relative;
-    margin: 60px 0 0 250px;
-    color: #FF2D43;
-    
-  }
-  .fa-circle-arrow-right:hover{
-    animation: bounce 500ms;
-    color: #FF2D43;
-    scale: 1.3;
-    opacity: 0.9;
-  }
-  #entrainements .img-1{
-    background-image: url("./img/entrainement-3.webp");  
-  }
-  #entrainements .img-2{
-    background-image: url("./img/entrainement-2.webp");
-  }
-  #entrainements .img-3{
-    background-image: url("./img/entrainement-4.webp");
-  }
-  #entrainements .img-4{
-    background-image: url("./img/entrainement-1.webp");
-  }
-  #entrainements .img-5{
-    background-image: url("./img/entrainement-5.webp");
-  }
-  #entrainements .section2-3{
-    background-image: linear-gradient(10deg, #FF2D43 , #e6dbc6 );  
-    margin: 5px 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  #entrainements .section2-3 p{
-    margin: 15px 0 0 0;
-  }
-  #entrainements iframe{
-    border: none;
-    border: 1px #fff solid;
-    border-radius: 0;
-    padding: 0;
-    margin: 0;
-  }
-  #entrainements .section3-3{
-    border-radius: 0 20px 20px 0;
-  }
-  #entrainements .section3-3 img{
-    border: none;
-    padding: 0;
-    border-radius: 0 20px 20px 0;
-  }
-  #entrainements .buttonPlus{
-    margin: 20px 0 20px 0;
-  }
-  #entrainements .regles p{
-    margin: 15px;
-  }
   
   
   /*Degrés*/
@@ -1392,7 +1408,7 @@ iframe {
     }
   
     /*Tab margin top all page*/
-    #artistes h1, #a-la-une h1, #top-adresses h1, #entrainements h1, #contact h1, #article h1  {
+    #artistes h1, #a-la-une h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
       margin: -75px 0 0 0;
     }
     .info-title {
@@ -1477,45 +1493,45 @@ iframe {
   }
   
   /*Tab entrainement*/
-  #entrainements .section1-3{
+  #services .section1-3{
    cursor: default;
   }
-  #entrainements .section2-3{
+  #services .section2-3{
     margin: 0px 0px -5px -5px;
     border-radius: 0 0 0 20px;
     width: 326px;
   }
-  #entrainements iframe{
+  #services iframe{
     border: none;
     border-top: 1px #fff solid;
     border-radius: 0 0 0 19px;
     padding: 0;
   }
-  #entrainements .section3-3{
+  #services .section3-3{
     margin: 0px -5px 5px 5px;
     border-radius: 0 0 20px 0;
   }
-  #entrainements .section3-3 img{
+  #services .section3-3 img{
     border-radius: 0 0 20px 0;
   }
   .fa-circle-arrow-right{
     display: none;
   }
-  #entrainements .no-flip-card {
+  #services .no-flip-card {
     flex-wrap: wrap;
     justify-content: center;
     width: 666px;
     margin: 0 auto;
   }
-  #entrainements .img-1, #entrainements .img-2, #entrainements .img-3, #entrainements .img-4, #entrainements .img-5{
+  #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5{
     width: 100%;
     border-radius: 20px 20px 0 0;
   }
   
-  #entrainements .no-flip-card {
+  #services .no-flip-card {
     margin-bottom: 20px;
   }
-  #entrainements .entrainement-descriptions {
+  #services .entrainement-descriptions {
   width: 666px;
   }
   
@@ -1760,7 +1776,7 @@ iframe {
   
   
     /*Desktop margin top all page*/
-    #artistes h1, #a-la-une h1, #top-adresses h1, #entrainements h1, #contact h1, #article h1  {
+    #artistes h1, #a-la-une h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
       padding: 100px 0 0 0;
       margin: 0px 0 0 0;
     }
@@ -1874,34 +1890,34 @@ iframe {
       }
     
       /*Desk entrainement*/
-      #entrainements .no-flip-card {
+      #services .no-flip-card {
         width: 996px;
         padding-bottom: 0;
       }
-      #entrainements .carousel-items {
+      #services .carousel-items {
         overflow-x: hidden;
       }
-      #entrainements .entrainement-descriptions {
+      #services .entrainement-descriptions {
         width: 50%;
         }   
-      #entrainements .section1-3{
+      #services .section1-3{
         width: 320px;
         border-radius: 20px 0 0 20px;
         margin: 5px;
       }
-      #entrainements .section2-3{
+      #services .section2-3{
         margin: 5px 0px;
         border-radius: 0;
         width: 330px;
       }
-      #entrainements iframe{
+      #services iframe{
         border-radius: 0;
       }
-      #entrainements .section3-3{
+      #services .section3-3{
         border-radius: 0 20px 20px 0;
         margin: 5px;
       }
-      #entrainements .section3-3 img{
+      #services .section3-3 img{
         width: 100%;
         border-radius: 0 20px 20px 0;
       }
