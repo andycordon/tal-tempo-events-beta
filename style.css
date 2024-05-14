@@ -682,6 +682,9 @@ iframe {
     opacity: 0.5;
     transition: all 400ms ease-in;
   }
+  #artistes #artiste-ariane, #artistes #artiste-jessica, #artistes #artiste-mike {
+    margin: 40px 0 20px 0;
+  }
   
 
 
