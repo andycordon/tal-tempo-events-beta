@@ -734,8 +734,8 @@ iframe {
   }
   .fa-circle-arrow-right{
     font-size: 30px;
-    position: relative;
-    margin: 60px 0 0 250px;
+    position: absolute;
+    margin: -35px 0 0px 120px;
     color: #001F3F;
     
   }
@@ -746,14 +746,14 @@ iframe {
     opacity: 0.9;
   }
   #services .section2-3{
-    background: linear-gradient(to top left,#fff, #FF2D43, #001f3f 32%, #000);
+    background-color: #001f3f;
     margin: 5px;
     padding: 10px;
     color: #fff;
   }
   #services .section3-3{
     padding: 10px;
-    background: linear-gradient(to top left,#fff, #FF2D43 68%, #001f3f, #000);
+    background-color:#FF2D43;
     border-radius: 0 20px 20px 0;
   }
   #services .img-1{
