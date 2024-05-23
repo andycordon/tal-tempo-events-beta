@@ -746,14 +746,14 @@ iframe {
     opacity: 0.9;
   }
   #services .section2-3{
-    background-color: #001f3f;
+    background: linear-gradient(90deg, #000 0%, #232323 100%);
     margin: 5px;
     padding: 10px;
     color: #fff;
   }
   #services .section3-3{
+    background: linear-gradient(90deg, #989898 0%, #fff 100%);
     padding: 10px;
-    background-color:#FF2D43;
     border-radius: 0 20px 20px 0;
   }
   #services .img-1{
