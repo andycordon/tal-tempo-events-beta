@@ -695,17 +695,18 @@ iframe {
 
   /*Services*/
   #services h1 {
-    padding: 100px 0 0 0;  
+    padding: 100px 0 0px 0;
+    margin-bottom:-10px ;  
   }
   #services h2{
-    margin:20px 0 10px 0;
+    margin:40px 0 10px 0;
   }
   /*Services carousel*/
   #services .carousel-items {
     display: flex;
     overflow-x: scroll;
     padding: 0px 0px 10px 0px;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
   }
   #services .carousel-item {
     flex-grow: 1;
