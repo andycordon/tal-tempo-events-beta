@@ -737,11 +737,10 @@ iframe {
     position: relative;
     margin: 0px 0 0px 0px;
     color: #001F3F;
-    
   }
   .fa-circle-arrow-right:hover{
     animation: bounce 500ms;
-    color: #001F3F;
+    color: #FF2D43;
     scale: 1.2;
     opacity: 0.9;
   }
