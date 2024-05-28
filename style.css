@@ -687,12 +687,6 @@ iframe {
   }
   
 
-
-
-
-
-  /*REFACTORY HERE*/
-
   /*Services*/
   #services h1 {
     padding: 100px 0 0px 0;
@@ -817,69 +811,59 @@ iframe {
     background-image: url("./img/services-enterement.png");  
   }
   
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  /*À la une*/
-  #a-la-une h1 {
+    
+  /*Actualites*/
+  #actualites h1 {
     padding: 100px 0 0 0;  
   }
-  #a-la-une h2 {
+  #actualites h2 {
     margin: 30px 0 -18px 0;  
   }
-  #a-la-une img{
+  #actualites img{
     border: 1px solid #fff;
     border-radius: 20px;
     padding: 0px;
     margin:  0 0 10px 0;
     width: 320px;
   }
-  #a-la-une a{
+  #actualites a{
     color: #fff;
     transform: scale(1);
   }
-  #a-la-une .card {
+  #actualites .card {
     width: 340px;
     margin: 10px auto 20px auto;
     padding: 0 0 10px 0;
     border-radius:25px;
     border: 3px solid #e6dbc6;
   }
-  
-  #a-la-une .card:hover{
+  #actualites .card:hover{
     transition: all 400ms ease-out;
     transform: scale(1.01);
     opacity: 0.6;
   }
-  
-  #a-la-une .card h3{
+  #actualites .card h3{
     margin: 10px 0 0 0;
   }
-  #a-la-une .button-article {
+  #actualites .button-article {
     position: relative;
     background-color: #FF2D43;
     border: 1px solid #fff;
     border-radius: 20px 0 20px 0;
     width: 45%;
     padding: 10px 0;
-    margin: -56px 0 0px 177px;
+    margin: -58px 0 0px 177px;
   }
-  #a-la-une .buttonPlus{
+  #actualites .buttonPlus{
     margin: 0 0 40px 0;
   }
   
+
+
+  
+    /*REFACTORY HERE*/
+  
+
   /*A la une Article*/
   #article{
     margin: 0 10px;
@@ -1432,7 +1416,7 @@ iframe {
     }
   
     /*Tab margin top all page*/
-    #artistes h1, #a-la-une h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
+    #artistes h1, #actualites h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
       margin: -75px 0 0 0;
     }
     .info-title {
@@ -1445,19 +1429,19 @@ iframe {
     }
   
     /*Tab liste article comportement*/
-    #a-la-une article{
+    #actualites article{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
-    #a-la-une .card{
+    #actualites .card{
     margin: 0 10px 10px 10px;
     width: 330px;
   }
-    #a-la-une img{
+    #actualites img{
     width: 310px;
   }
-    #a-la-une .button-article{
+    #actualites .button-article{
     margin: -56px 0 0 171px;
   }
   
@@ -1800,7 +1784,7 @@ iframe {
   
   
     /*Desktop margin top all page*/
-    #artistes h1, #a-la-une h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
+    #artistes h1, #actualites h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
       padding: 100px 0 0 0;
       margin: 0px 0 0 0;
     }
