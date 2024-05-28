@@ -853,15 +853,22 @@ iframe {
     width: 45%;
     padding: 10px 0;
     margin: -58px 0 0px 177px;
+    animation: look-article 3000ms linear infinite;
+  }
+  @keyframes look-article {
+    0% {
+      opacity: 1;
+    }
+      20% {
+        opacity: 0;
+    }
+      50% {
+        opacity: 1;
+    }
   }
   #actualites .buttonPlus{
     margin: 0 0 40px 0;
   }
-  
-
-
-  
-    /*REFACTORY HERE*/
   
 
   /*A la une Article*/
@@ -889,6 +896,13 @@ iframe {
     margin: 0 0 40px 0;
   }
   
+
+
+
+
+   /*REFACTORY HERE*/
+
+
   /*Archives*/
   
   #archives h1 {
