@@ -941,6 +941,143 @@ iframe {
    /*REFACTORY HERE*/
 
 
+  /*Contact*/
+  #contact h1 {
+    padding: 100px 0 0 0;  
+}
+#contact .fa-phone, .fa-location-dot, .fa-envelope{
+  font-size: 28px;
+}
+#contact .fa-facebook, #contact .fa-instagram, #contact .fa-youtube, #contact .fa-discord {
+  margin: 20px 0 5px 0;
+  color: #FF2D43;
+}
+#contact a {
+  color:white;
+}
+#contact a:hover {
+  transition: all 400ms ease-out;
+  color:#FF2D43;
+  opacity: 0.7;
+}
+
+
+
+/*faq pratiques*/
+.info-title {
+    padding: 100px 0 0 0;
+    margin: 0px;
+}
+.info-menu-title {
+  margin: 30px 0 10px 0; 
+}
+.info-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+.info-menu a p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e6dbc6;
+  background-color: #e6dbc6;
+  border-radius: 20px;
+  box-shadow: -1px 3px 5px #818181;
+  margin: 5px;
+  color: #000;
+  padding: 5px;
+  height: 60px;
+  width: 160px;
+}
+.info-menu a p:hover{
+  background-color: #000;
+  transition: all 600ms cubic-bezier(0.62, 0.43, 0.35, 1.47);
+  border: 1px solid #e6dbc6;
+  box-shadow: none;
+  color: #e6dbc6;
+}
+#faq h2 {
+  padding: 0 0 20px 0;  
+  border-bottom: 1px solid #e6dbc6;
+  margin: auto;
+}
+#faq details {    color: #fff;
+border-bottom: 1px solid #e6dbc6;
+padding: 10px 0px 10px 10px;
+text-align: left;
+
+
+}
+#faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  
+}
+#faq summary:after {
+  content: "\002B";
+  padding: 3px 8px;
+  margin: 5px 10px 5px 5px;
+  border-radius: 20px;
+  background-color: #FF2D43;
+  color: #e6dbc6;
+  border: 1px solid #e6dbc6;
+}
+#faq details[open] summary {
+  border-top: 1px solid #e6dbc6;
+  border-left: 1px solid #e6dbc6;
+  border-right: 1px solid #e6dbc6;
+  border-radius: 15px 15px 0 0;
+  margin-right: 10px;
+
+
+}
+#faq details[open] summary:after {
+  content: "\00D7";
+  margin: 5px 0px 5px 5px;
+
+}
+#faq .reponse {
+  text-align: left;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #e6dbc6;
+  color: #000;
+  border-radius: 0 0 15px 15px;
+}	
+#faq details[open] summary ~ * , details[open] summary:after {
+  animation: sweep 800ms ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0}
+  100%  {opacity: 1}
+}
+#faq .reponse p {
+padding: 0 0 5px 0;
+}
+#faq article {
+  margin:0;
+  padding: 90px 0 0 0;
+}
+#faq a {
+  color: #FF2D43;
+}
+#faq .cite, #faq .pdf {
+  margin: 0px 0 20px 0;
+}
+
+
+
+
+
   
   
   /*Top adresse*/
@@ -1135,139 +1272,6 @@ iframe {
     font-size: 12px;
   }
   
-  
-  /*Contact*/
-  #contact h1 {
-      padding: 100px 0 0 0;  
-  }
-  #contact .fa-phone, .fa-location-dot, .fa-envelope{
-    font-size: 28px;
-  }
-  #contact .fa-facebook, #contact .fa-instagram, #contact .fa-youtube, #contact .fa-discord {
-    margin: 20px 0 5px 0;
-    color: #FF2D43;
-  }
-  #contact a {
-    color:white;
-  }
-  #contact a:hover {
-    transition: all 400ms ease-out;
-    color:#FF2D43;
-    opacity: 0.7;
-  }
-  
-  
-  
-  /*Infos pratiques*/
-  .info-title {
-      padding: 100px 0 0 0;
-      margin: 0px;
-  }
-  .info-menu-title {
-    margin: 30px 0 10px 0; 
-  }
-  .info-menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-  }
-  .info-menu a p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #e6dbc6;
-    background-color: #e6dbc6;
-    border-radius: 20px;
-    box-shadow: -1px 3px 5px #818181;
-    margin: 5px;
-    color: #000;
-    padding: 5px;
-    height: 60px;
-    width: 160px;
-  }
-  .info-menu a p:hover{
-    background-color: #000;
-    transition: all 600ms cubic-bezier(0.62, 0.43, 0.35, 1.47);
-    border: 1px solid #e6dbc6;
-    box-shadow: none;
-    color: #e6dbc6;
-  }
-  #infos h2 {
-    padding: 0 0 20px 0;  
-    border-bottom: 1px solid #e6dbc6;
-    margin: auto;
-  }
-  #infos details {    color: #fff;
-  border-bottom: 1px solid #e6dbc6;
-  padding: 10px 0px 10px 10px;
-  text-align: left;
-  
-  
-  }
-  #infos summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    cursor: pointer;
-    padding: 5px 10px;
-    border: 1px solid transparent;
-    font-size: 18px;
-    
-  }
-  #infos summary:after {
-    content: "\002B";
-    padding: 3px 8px;
-    margin: 5px 10px 5px 5px;
-    border-radius: 20px;
-    background-color: #FF2D43;
-    color: #e6dbc6;
-    border: 1px solid #e6dbc6;
-  }
-  #infos details[open] summary {
-    border-top: 1px solid #e6dbc6;
-    border-left: 1px solid #e6dbc6;
-    border-right: 1px solid #e6dbc6;
-    border-radius: 15px 15px 0 0;
-    margin-right: 10px;
-  
-  
-  }
-  #infos details[open] summary:after {
-    content: "\00D7";
-    margin: 5px 0px 5px 5px;
-  
-  }
-  #infos .reponse {
-    text-align: left;
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #e6dbc6;
-    color: #000;
-    border-radius: 0 0 15px 15px;
-  }	
-  #infos details[open] summary ~ * , details[open] summary:after {
-    animation: sweep 800ms ease-in-out;
-  }
-  @keyframes sweep {
-    0%    {opacity: 0}
-    100%  {opacity: 1}
-  }
-  #infos .reponse p {
-  padding: 0 0 5px 0;
-  }
-  #infos article {
-    margin:0;
-    padding: 90px 0 0 0;
-  }
-  #infos a {
-    color: #FF2D43;
-  }
-  #infos .cite, #infos .pdf {
-    margin: 0px 0 20px 0;
-  }
   
   
   
@@ -1635,7 +1639,7 @@ iframe {
   }
   
   
-  /* Tab menu infos pratique */
+  /* Tab menu faq pratique */
     .info-menu-title{
       margin: 25px 0 10px 0;
     }
@@ -1643,7 +1647,7 @@ iframe {
       padding: 5px 10px;
       width: 180px;
     }
-    #infos article {
+    #faq article {
       margin:60px 0;
       padding: 20px 0 0 0;
     }
@@ -1839,7 +1843,7 @@ iframe {
         }
       
   
-        /*Desk infos pratiques*/
+        /*Desk faq pratiques*/
         .info-menu {
           margin-bottom: -160px;
         }
@@ -1849,14 +1853,14 @@ iframe {
         .info-menu a p{
           width: 190px;
         }
-        #infos {
+        #faq {
           display: flex;
           flex-wrap:wrap;
           justify-content: center;
           height: 100%;
           margin: 200px 0 0 0;
         }
-        #infos article {
+        #faq article {
           width: 45%;
           margin: 20px;
           border: 1px #e6dbc6 solid;
@@ -1864,17 +1868,17 @@ iframe {
           border-radius: 20px;
         }
         
-        #infos details {
+        #faq details {
           border-bottom: none;
           border-top: 1px #e6dbc6 solid;
     }
-        #infos h2 {
+        #faq h2 {
           border-bottom: none;
     }
   
   
        /*Desk contact*/
-       .contact-infos {
+       .contact-faq {
         display: flex;
         justify-content: center;
         z-index: 2;
