@@ -53,7 +53,7 @@ iframe {
   width:100%;
   height: 220px;
   border-radius: 25px;
-  border: 3px solid #e6dbc6;
+  border: 3px solid #fff;
   padding: 5px;
   margin: 5px 0;
 }
@@ -94,7 +94,7 @@ iframe {
     padding-top: 8px;
     line-height: 8px;
     z-index: 201;
-    border: 1px solid #e6dbc6;
+    border: 1px solid #fff;
     border-radius: 20px;
     box-shadow: -1px 3px 5px #818181;
   }
@@ -278,8 +278,6 @@ iframe {
         transform: scale(1);
       }
     }
-
-
   
 
   /*Mobile style*/
@@ -535,108 +533,6 @@ iframe {
       opacity: 0;
     }
   }
-
-    /*Contact mobile*/
-    #contact .note2,#contact .note4,#contact .note6,#contact .note8,#contact .note10, #contact .note12 {
-      position: absolute;
-      z-index: -100;
-      animation: contact-elevation-note 8000ms infinite ;
-      opacity: 0;
-    }
-    #contact .note1, #contact .note3, #contact .note5, #contact .note7, #contact .note9, #contact .note11 {
-      position: absolute;
-      z-index: -100;
-      animation: contact-elevation-note2 8000ms infinite ;
-      opacity: 0;
-    }
-    #contact .note1 {
-      margin: -8px 0 0 40px;
-      width: 30px;
-    }
-    #contact .note4 {
-      margin: -10px 0 0 -80px;
-      width: 22px;
-      animation-delay: 1200ms;
-    }
-    #contact .note6 {
-      margin: 40px 0 0 -140px;
-      width: 16px;
-      animation-delay: 2400ms;
-    }
-    #contact .note2 {
-      margin: -18px 0 0 -18px;
-      width: 34px;
-      animation-delay: 3000ms;
-    }
-    #contact .note3 {
-      margin: 70px 0 0 -160px;
-      width: 16px;
-      animation-delay: 3600ms;
-    }
-    #contact .note5 {
-      margin: -15px 0 0 -37px;
-      width: 23px;
-      animation-delay: 4000ms;
-    }
-    #contact .note7 {
-      margin: -10px 0 0 -100px;
-      width: 30px;
-      animation-delay: 4600ms;
-    }
-    #contact .note10 {
-      margin: 10px 0 0 -130px;
-      width: 22px;
-      animation-delay: 5100ms;
-    }
-    #contact .note12 {
-      margin: 90px 0 0 -165px;
-      width: 16px;
-      animation-delay: 5700ms;
-    }
-    #contact .note8 {
-      margin: -12px 0 0 -80px;
-      width: 34px;
-      animation-delay: 6000ms;
-    }
-    #contact .note9 {
-      margin: -8px 0 0 -110px;
-      width: 16px;
-      animation-delay: 6800ms;
-    }
-    #contact .note11 {
-      margin: -13px 0 0 20px;
-      width: 23px;
-      animation-delay: 7500ms;
-    }
-    @keyframes contact-elevation-note {
-      0% {
-        transform: rotate(0deg);
-        opacity: 1;
-      }
-        20% {
-          opacity: 1;
-      }
-        100% {
-          transform: rotate(270deg);
-          margin-top: -1100px;
-          opacity: 0;
-      }
-    }
-    @keyframes contact-elevation-note2 {
-      0% {
-        transform: rotate(0deg);
-        opacity: 1;
-      }
-        20% {
-          opacity: 1;
-      }
-        100% {
-          transform: rotate(-270deg);
-          margin-top: -1100px;
-          opacity: 0;
-      }
-    }
-
   
   /*Artistes*/
   #artistes h1 {
@@ -835,7 +731,7 @@ iframe {
     margin: 10px auto 20px auto;
     padding: 0 0 10px 0;
     border-radius:25px;
-    border: 3px solid #e6dbc6;
+    border: 3px solid #fff;
   }
   #actualites .card:hover{
     transition: all 400ms ease-out;
@@ -934,93 +830,151 @@ iframe {
   }
 
   
-
-
-
-
-   /*REFACTORY HERE*/
-
-
-  /*Contact*/
+/*Contact*/
   #contact h1 {
     padding: 100px 0 0 0;  
-}
-#contact .fa-phone, .fa-location-dot, .fa-envelope{
-  font-size: 28px;
-}
-#contact .fa-facebook, #contact .fa-instagram, #contact .fa-youtube, #contact .fa-discord {
-  margin: 20px 0 5px 0;
-  color: #FF2D43;
-}
-#contact a {
-  color:white;
-}
-#contact a:hover {
-  transition: all 400ms ease-out;
-  color:#FF2D43;
-  opacity: 0.7;
-}
-
+  }
+  #contact .fa-phone, .fa-location-dot, .fa-envelope{
+    font-size: 28px;
+  }
+  #contact .fa-facebook, #contact .fa-instagram, #contact .fa-youtube, #contact .fa-discord {
+    margin: 20px 0 5px 0;
+    color: #FF2D43;
+  }
+  #contact a {
+    color:white;
+  }
+  #contact a:hover {
+    transition: all 400ms ease-out;
+    color:#FF2D43;
+    opacity: 0.7;
+  }
+  #contact .note2,#contact .note4,#contact .note6,#contact .note8,#contact .note10, #contact .note12 {
+    position: absolute;
+    z-index: -100;
+    animation: contact-elevation-note 8000ms infinite ;
+    opacity: 0;
+  }
+  #contact .note1, #contact .note3, #contact .note5, #contact .note7, #contact .note9, #contact .note11 {
+    position: absolute;
+    z-index: -100;
+    animation: contact-elevation-note2 8000ms infinite ;
+    opacity: 0;
+  }
+  #contact .note1 {
+    margin: -8px 0 0 40px;
+    width: 30px;
+  }
+  #contact .note4 {
+    margin: -10px 0 0 -80px;
+    width: 22px;
+    animation-delay: 1200ms;
+  }
+  #contact .note6 {
+    margin: 40px 0 0 -140px;
+    width: 16px;
+    animation-delay: 2400ms;
+  }
+  #contact .note2 {
+    margin: -18px 0 0 -18px;
+    width: 34px;
+    animation-delay: 3000ms;
+  }
+  #contact .note3 {
+    margin: 70px 0 0 -160px;
+    width: 16px;
+    animation-delay: 3600ms;
+  }
+  #contact .note5 {
+    margin: -15px 0 0 -37px;
+    width: 23px;
+    animation-delay: 4000ms;
+  }
+  #contact .note7 {
+    margin: -10px 0 0 -100px;
+    width: 30px;
+    animation-delay: 4600ms;
+  }
+  #contact .note10 {
+    margin: 10px 0 0 -130px;
+    width: 22px;
+    animation-delay: 5100ms;
+  }
+  #contact .note12 {
+    margin: 90px 0 0 -165px;
+    width: 16px;
+    animation-delay: 5700ms;
+  }
+  #contact .note8 {
+    margin: -12px 0 0 -80px;
+    width: 34px;
+    animation-delay: 6000ms;
+  }
+  #contact .note9 {
+    margin: -8px 0 0 -110px;
+    width: 16px;
+    animation-delay: 6800ms;
+  }
+  #contact .note11 {
+    margin: -13px 0 0 20px;
+    width: 23px;
+    animation-delay: 7500ms;
+  }
+  @keyframes contact-elevation-note {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+      20% {
+        opacity: 1;
+    }
+      100% {
+        transform: rotate(270deg);
+        margin-top: -1100px;
+        opacity: 0;
+    }
+  }
+  @keyframes contact-elevation-note2 {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+      20% {
+        opacity: 1;
+    }
+      100% {
+        transform: rotate(-270deg);
+        margin-top: -1100px;
+        opacity: 0;
+    }
+  }
 
 
 /*faq pratiques*/
 .info-title {
     padding: 100px 0 0 0;
-    margin: 0px;
-}
-.info-menu-title {
-  margin: 30px 0 10px 0; 
-}
-.info-menu {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-}
-.info-menu a p{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #e6dbc6;
-  background-color: #e6dbc6;
-  border-radius: 20px;
-  box-shadow: -1px 3px 5px #818181;
-  margin: 5px;
-  color: #000;
-  padding: 5px;
-  height: 60px;
-  width: 160px;
-}
-.info-menu a p:hover{
-  background-color: #000;
-  transition: all 600ms cubic-bezier(0.62, 0.43, 0.35, 1.47);
-  border: 1px solid #e6dbc6;
-  box-shadow: none;
-  color: #e6dbc6;
-}
-#faq h2 {
-  padding: 0 0 20px 0;  
-  border-bottom: 1px solid #e6dbc6;
-  margin: auto;
-}
-#faq details {    color: #fff;
-border-bottom: 1px solid #e6dbc6;
-padding: 10px 0px 10px 10px;
-text-align: left;
-
-
-}
-#faq summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    margin-bottom: -60px;
+  }
+  #faq h2 {
+    padding: 0 0 20px 0;  
+    border-bottom: 1px solid #fff;
+    margin: auto;
+  }
+  #faq details {    
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+  }
+  #faq summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   list-style: none;
   cursor: pointer;
   padding: 5px 10px;
   border: 1px solid transparent;
   font-size: 18px;
-  
 }
 #faq summary:after {
   content: "\002B";
@@ -1028,28 +982,25 @@ text-align: left;
   margin: 5px 10px 5px 5px;
   border-radius: 20px;
   background-color: #FF2D43;
-  color: #e6dbc6;
-  border: 1px solid #e6dbc6;
+  color: #fff;
+  border: 1px solid #fff;
 }
 #faq details[open] summary {
-  border-top: 1px solid #e6dbc6;
-  border-left: 1px solid #e6dbc6;
-  border-right: 1px solid #e6dbc6;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
   border-radius: 15px 15px 0 0;
   margin-right: 10px;
-
-
 }
 #faq details[open] summary:after {
   content: "\00D7";
   margin: 5px 0px 5px 5px;
-
 }
 #faq .reponse {
   text-align: left;
   padding: 10px;
   margin-right: 10px;
-  background-color: #e6dbc6;
+  background-color: #fff;
   color: #000;
   border-radius: 0 0 15px 15px;
 }	
@@ -1067,18 +1018,14 @@ padding: 0 0 5px 0;
   margin:0;
   padding: 90px 0 0 0;
 }
-#faq a {
-  color: #FF2D43;
-}
-#faq .cite, #faq .pdf {
-  margin: 0px 0 20px 0;
-}
 
 
 
 
 
-  
+
+
+     /*REFACTORY HERE*/
   
   /*Top adresse*/
   #top-adresses h1 {
@@ -1169,7 +1116,7 @@ padding: 0 0 5px 0;
     margin: 10px 5px;
   }
   #top-adresses .flip-card-back .top-adresses-descriptif {
-    background-color: #e6dbc6;
+    background-color: #fff;
     padding: 10px 0;
     border-radius:20px 20px 0 0;
   }
@@ -1222,11 +1169,11 @@ padding: 0 0 5px 0;
     padding: 5px;
   }
   #degres-details h2:hover {
-    color: #e6dbc6;
+    color: #fff;
   }
   #degres-details article {
-    border: 1px solid #e6dbc6;
-    background-color: #e6dbc6;
+    border: 1px solid #fff;
+    background-color: #fff;
     border-radius: 20px;
     box-shadow: -1px 3px 5px #818181;
     margin: 20px 5px;
@@ -1234,7 +1181,7 @@ padding: 0 0 5px 0;
   #degres-details article:hover {
     background-color: #000;
     transition: all 600ms cubic-bezier(0.62, 0.43, 0.35, 1.47);
-    border: 1px solid #e6dbc6;
+    border: 1px solid #fff;
     box-shadow: none;
   }
   #degres-details .buttonPlus{
@@ -1264,7 +1211,7 @@ padding: 0 0 5px 0;
     padding: 0;
   }
   #degres-details-serie div img{
-    border: 1px solid #e6dbc6;
+    border: 1px solid #fff;
     padding: 0;
     border-radius: 20px;
   }
@@ -1715,7 +1662,7 @@ padding: 0 0 5px 0;
       transform: scale(1);
       display: block;
       border-radius: 20px;
-      border: 1px solid #e6dbc6;
+      border: 1px solid #fff;
       background-color: #FF2D43;
       color: white;
       font-weight: 600;
@@ -1726,9 +1673,9 @@ padding: 0 0 5px 0;
   
     }
     nav a:hover {
-      background-color: #e6dbc6;
+      background-color: #fff;
       color: black;
-      border: 1px solid #e6dbc6;
+      border: 1px solid #fff;
       box-shadow: none;
     }
     .menu-active {
@@ -1863,14 +1810,14 @@ padding: 0 0 5px 0;
         #faq article {
           width: 45%;
           margin: 20px;
-          border: 1px #e6dbc6 solid;
+          border: 1px #fff solid;
           padding: 20px 0 0 10px;
           border-radius: 20px;
         }
         
         #faq details {
           border-bottom: none;
-          border-top: 1px #e6dbc6 solid;
+          border-top: 1px #fff solid;
     }
         #faq h2 {
           border-bottom: none;
