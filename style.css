@@ -95,13 +95,16 @@ iframe {
     line-height: 8px;
     z-index: 201;
     border: 1px solid #fff;
-    border-radius: 20px;
+    border-radius: 15px 5px 15px 5px;
     box-shadow: -1px 3px 5px #818181;
+  }
+  .buttonMenu:hover {
+    background: linear-gradient(to top right, #001F3F, 80%, #FF2D43);
   }
   .buttonMenu span {
     height: 3px;
     width: 100%;
-    background: white;
+    background: #000;
     display: inline-block;
     transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
   }
@@ -145,7 +148,7 @@ iframe {
     display: block;
   }
   #check:checked ~ nav a {
-    border-radius: 20px;
+    border-radius: 15px 5px 15px 5px;
     background-color: #FF2D43;
     color: black;
     font-weight: 600;
