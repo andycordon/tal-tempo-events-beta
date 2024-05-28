@@ -39,23 +39,40 @@
           </nav>
         </header>
     <!-- Actualités -->
-    <section id="contact">
+    <section id="a-la-une">
       <h1>Actualités</h1>
+      <!-- Pour archivé un artcile
+        Copier de <a> à </a>
+        Ouvré dans le fichier archives de la saison concernée (exemple archives-2022-2023.html)
+        Coller entre <article> et </article>
+        Ajouter ../ à ../img/nom-de-l-image (resultat ../..img/nom-de-l-image)
+        Et . à ./articles (resultat ../articles/nom-de-l-article) -->
+      <h2>À venir</h2>
       <article>
-        <img
-        src="../img/actualites.png"
-        alt="En cours" loading="lazy"
-        >
-        <h2>
-          Title
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab quaerat ratione eos, alias sed vel consequatur cum doloremque quas.
-          Deserunt natus vero mollitia vitae pariatur cupiditate, maiores facilis nihil hic? Doloribus voluptate dolorum alias.
-          Amet illum nobis consectetur nihil.
-        </p>
+        <a href="#">
+          <div class="card">
+            <h3>Evenement</h3>
+            <p>01/01/24</p>
+            <img src="../img/logo.webp" alt="Photo de l'évènements de Tal Tempo Events">
+            <p class="button-article">Voir l'article</p>
+          </div>
+        </a>
       </article>
-    </section>
+      
+      <h2>Récemment passés</h2>
+      <article>
+        <a href="#">
+          <div class="card">
+            <h3>Evenement</h3>
+            <p>01/01/24</p>
+            <img src="../img/logo.webp" alt="Photo de l'évènements de Tal Tempo Events">
+            <p class="button-article">Voir l'article</p>
+          </div>
+        </a>
+        </article>
+
+        <a href="./archives/archives.html" class="buttonPlus">Voir les archives</a>
+      </section>
       
   <!-- Zone du footer -->
   <footer>
