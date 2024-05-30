@@ -76,49 +76,59 @@ iframe {
     background: #FF2D43;
   }
 
-  /*Bouton du menu ouvert-fermé*/
-  #check {
-    display: none;
-  }
-  .buttonMenu {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(to top right, #FF2D43, 80%, #001F3F);
-    padding: 12px;
-    display: inline-block;
-    cursor: pointer;
-    transition: all 0.2s ease-in;
-    padding-top: 8px;
-    line-height: 8px;
-    z-index: 201;
-    border: 1px solid #fff;
-    border-radius: 15px 5px 15px 5px;
-    box-shadow: -1px 3px 5px #818181;
-  }
-  .buttonMenu:hover {
-    background: linear-gradient(to top right, #001F3F, 80%, #FF2D43);
-  }
-  .buttonMenu span {
-    height: 3px;
-    width: 100%;
-    background: #000;
-    display: inline-block;
-    transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
-  }
-  #check:checked ~ .buttonMenu span:nth-child(1) {
-    width: 100%;
-    transform: rotate(45deg) translateY(6px) translateX(6px);
-  }
-  #check:checked ~ .buttonMenu span:nth-child(2) {
-    width: 0;
-  }
-  #check:checked ~ .buttonMenu span:nth-child(3) {
-    width: 100%;
-    transform: rotate(-45deg) translateY(-7px) translateX(7px);
-  }
+ /*Bouton du menu ouvert-fermé*/
+#check {
+  display: none;
+}
+
+.buttonMenu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to top right, #FF2D43, 80%, #001F3F);
+  padding: 12px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  padding-top: 8px;
+  line-height: 8px;
+  z-index: 201;
+  border: 1px solid #fff;
+  border-radius: 15px 5px 15px 5px;
+  box-shadow: -1px 3px 5px #818181;
+}
+
+.buttonMenu span {
+  height: 3px;
+  width: 100%;
+  background: #000;
+  display: inline-block;
+  transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
+}
+
+/* Changement de couleur au clic */
+#check:checked + .buttonMenu {
+  background: linear-gradient(to top right, #001F3F, 80%, #FF2D43);
+}
+
+#check:checked + .buttonMenu span {
+  background: #fff;
+}
+
+#check:checked + .buttonMenu span:nth-child(1) {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+#check:checked + .buttonMenu span:nth-child(2) {
+  width: 0;
+}
+
+#check:checked + .buttonMenu span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-7px) translateX(7px);
+}
+
 
   /*Menu ouvert*/
   nav {
