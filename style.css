@@ -645,13 +645,13 @@ iframe {
     margin: 0px 0 0px 0px;
     color: #001F3F;
   }
-  .fa-circle-arrow-right:hover{
+  #services .no-flip-card-inner:hover .fa-circle-arrow-right {
     animation: bounce 500ms;
     color: #FF2D43;
     scale: 1.2;
     opacity: 0.9;
   }
-  #services .section2-3{
+    #services .section2-3{
     background: linear-gradient(90deg, #000 0%, #505050 100%);
     margin: 5px;
     padding: 10px;
