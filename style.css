@@ -1083,95 +1083,44 @@ padding: 0 0 5px 0;
       margin-top: 200px;
     }
     
-    /*Tab index section*/
-    #section2 article, #section5 article, #section4 article, #section6 article{
+/* Section 2 ACCUEIL tab*/
+    #section2 article, #section3 article, #section4 article, #section5 article, #section6 article{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 55px 1fr;
     }
-    #section2 article img, #section5 article img{
+    #section2 article img, #section4 article img, #section6 article img{
       grid-column:1/2;
       grid-row: 1/5;
     }
-    #section2 article h2, #section5 article h2{
+    #section2 article h2, #section4 article h2, #section6 article h2{
       grid-column:2/3;
       grid-row: 1/2;
     }
-    #section2 p, #section5 p{
+    #section2 p, #section4 article p, #section6 article p{
       grid-column:2/3;
       grid-row: 2/3;
       margin:0px 0 0 0;
       padding:0 10px;
     }
-    
-    #section4 article img, #section6 article img {
+    #section3 article img, #section5 article img {
       grid-column:2/2;
       grid-row: 1/5;
     }
-    #section4 article h2, #section6 article h2 {
+    #section3 article h2, #section5 article h2{
       grid-column:1;
       grid-row: 1;
     }
-    #section4 p, #section6 p {
+    #section3 p, #section5 p{
       grid-column:1;
       grid-row: 2;
       margin:0px 0 0 0;
       padding:0 10px;
     }
     #section2 h1{
-      padding: 40px 0 0 0;
+      padding: 80px 0 0 0;
     }
   
-    #section3 .right-article, #section3 .left-article{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 55px 30px 1fr;
-    }
-    #section3 .left-article img {
-      grid-column:1/1;
-      grid-row: 1/4;  
-    }
-    #section3 .left-article h2{
-      grid-column:2;
-      grid-row: 1; 
-   }
-    #section3 .date-article{
-      grid-column:2;
-      grid-row: 2;   
-      margin: 0;
-    }
-    #section3 p{
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      grid-column:2;
-      grid-row: 3;    margin: 0;
-      padding:0 10px;
-    }
-    #section3 .right-article img {
-      grid-column:2/2;
-      grid-row: 1/4;
-    }
-    #section3 .right-article h2{
-      grid-column:1;
-      grid-row: 1;
-    }
-    #section3 .right-article .date-article{
-      grid-column:1;
-      grid-row: 2;
-    }
-    #section3 .right-article p{
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      grid-column:1;
-      grid-row: 3;
-    }
-    #section8 .logos:before,
-    .logos:after {
-      width: 80px;
-      height: 100%;
-    }
   
     /*Tab margin top all page*/
     #artistes h1, #actualites h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
