@@ -230,10 +230,6 @@ iframe {
       margin: 10px 0 10px 12px;
       font-size: 36px;
     }
-    .fa-discord {
-      margin: 10px 0 10px 12px;
-      font-size: 32px;
-    }
     .fa-youtube {
       margin: 10px 0 10px 12px;
       font-size: 36px;
@@ -1035,11 +1031,7 @@ padding: 0 0 5px 0;
   padding: 90px 0 0 0;
 }
 
-
-
-
-
-
+/*#portfolio*/
 
 
 
@@ -1049,197 +1041,6 @@ padding: 0 0 5px 0;
 
      /*REFACTORY HERE*/
   
-  /*Top adresse*/
-  #top-adresses h1 {
-    padding: 100px 0 0 0;  
-  }
-  #top-adresses h2{
-    margin: 30px 0 10px 0;
-  }
-  #top-adresses .top-adresses-menu{
-    margin: 30px 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  /*Top adresses carousel*/
-  #top-adresses .carousel-item {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 450px;
-    flex: 1 0 250px;
-    margin: 15px;
-    scroll-snap-align: start;
-  }
-  #top-adresses .carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 20px 0 20px 5px;
-  }
-  #top-adresses .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 380px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  #top-adresses .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  #top-adresses .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  #top-adresses .flip-card-front img {
-    width: 299px;
-    padding: 0px;
-    border: none;
-    border-radius: 20px 20px 0 0;
-  }
-  #top-adresses .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  #top-adresses .flip-card-front {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    background: #fff;
-    color: #000;
-    padding: 0px;
-    box-shadow: -1px 3px 5px #818181;
-  }
-  #top-adresses .flip-card-back {
-    border: 1px solid #fff;
-    background-color: #fff;
-    color: #000;
-    transform: rotateY(180deg);
-    box-shadow: -1px 3px 5px #818181;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  #top-adresses .fa-circle-plus{
-    position: absolute;
-    margin: -25px 0 0px 115px;
-    font-size: 20px;
-    opacity: 0.5;
-  }
-  #top-adresses .flip-card-back a {
-    color: #000;
-  }
-  #top-adresses .flip-card-front h3 {
-    margin: 10px 5px;
-  }
-  #top-adresses .flip-card-back .top-adresses-descriptif {
-    background-color: #fff;
-    padding: 10px 0;
-    border-radius:20px 20px 0 0;
-  }
-  #top-adresses .flip-card-back .top-adresses-contact {
-    margin: 10px 5px;
-  }
-  #top-adresses .link-description {
-    color: #FF2D43;
-    margin: 5px 0;
-    text-decoration: underline 2px;
-  }
-  #top-adresses .link-description:hover {
-    transition: all 400ms ease-out;
-    opacity: 0.6;
-    text-decoration: none;
-  }
-  
-  
-  
-  
-  /*Degrés*/
-  #degres h1 {
-    padding: 100px 0 0 0;  
-  }
-  #degres h2 {
-    margin: 0 0 10px 0;  
-  }
-  #degres p {
-    margin: 30px 0 0 0;  
-  }
-  #degres img{
-    box-shadow: -1px 3px 5px #818181;
-    border-radius: 100%;
-    width: 70%;
-  }
-  #degres img:hover {
-    transform: rotate(360deg);
-    transition: all 1200ms cubic-bezier(0.22, 0.43, 0.35, 1.5);
-    box-shadow: none;
-    border: 20px solid #FF2D43;
-    padding: 10px;
-    background-color:#FF2D43;
-  }
-  /*Degrés détaillé*/
-  #degres-details h1 {
-    padding: 100px 0 10px 0;  
-  }
-  #degres-details h2 {
-    color: #000;
-    padding: 5px;
-  }
-  #degres-details h2:hover {
-    color: #fff;
-  }
-  #degres-details article {
-    border: 1px solid #fff;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: -1px 3px 5px #818181;
-    margin: 20px 5px;
-  }
-  #degres-details article:hover {
-    background-color: #000;
-    transition: all 600ms cubic-bezier(0.62, 0.43, 0.35, 1.47);
-    border: 1px solid #fff;
-    box-shadow: none;
-  }
-  #degres-details .buttonPlus{
-    margin:30px 0;
-  }
-  /*Degrés détaillé série*/
-  #degres-details-serie h1 {
-    padding: 100px 0 0 0;  
-  }
-  #degres-details-serie .buttonPlus{
-    margin:0 0 30px 0;
-  }
-  
-  #degres-details-serie h3 {
-    margin: -30px 0 0px 0;
-  }
-  #degres-details-serie .descriptifs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px 0 30px 0;
-    width: 100%;
-  }
-  #degres-details-serie div{
-    width: 30%;
-    margin: 5px;
-    padding: 0;
-  }
-  #degres-details-serie div img{
-    border: 1px solid #fff;
-    padding: 0;
-    border-radius: 20px;
-  }
-  #degres-details-serie .descriptifs div p{
-    font-size: 12px;
-  }
   
   
   
@@ -1248,44 +1049,10 @@ padding: 0 0 5px 0;
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*Tab style*/
-  
-  @media (min-width: 768px) {
-    
-    .copyrigth br {
-      display: none;
-    }
-  
-    /* Header tab */
-    header {
-      position: relative;
-    }
-    
-    /*Menu tab*/
-  
-    /* Section 1 ACCUEIL tab*/
+/*Tab style*/
+    @media (min-width: 768px) {
+/*Menu tab*/
+/* Section 1 ACCUEIL tab*/
     #section1 {
       display: flex;
       align-items: center;
@@ -1294,10 +1061,10 @@ padding: 0 0 5px 0;
     }
     .vinyle {
       width: 240px;
-      margin: -5px 0 0 -150px;
+      margin: 40px 0 0 -150px;
     }
     .logoAccueil{
-      margin: 15px 0 0 -3px;
+      margin: 60px 0 0 -3px;
       padding:0px;
       width: 115px;
     }
