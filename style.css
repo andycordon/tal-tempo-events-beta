@@ -1052,6 +1052,10 @@ padding: 0 0 5px 0;
 /*Tab style*/
     @media (min-width: 768px) {
 /*Menu tab*/
+    /* Header tab */
+    header {
+      position: relative;
+    }
 /* Section 1 ACCUEIL tab*/
     #section1 {
       display: flex;
