@@ -1131,8 +1131,8 @@ padding: 0 0 5px 0;
     #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1  {
       margin: -75px 0 0 0;
     }
-    .info-title {
-      margin: -70px 0 0 0;
+    .faq-title {
+      margin: 25px 0 0 0;
     }
   
     /*Tab Bureau h2*/
