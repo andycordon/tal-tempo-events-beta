@@ -1220,12 +1220,20 @@ padding: 0 0 5px 0;
     width: 50%;
   }
 
-  
+  /*Tab faq*/
+  #faq {
+    margin: -30px 0 0 0;
+  }
+  #faq article {
+    margin:40px 0;
+    padding: 20px 0 0 0;
+  }
 
 
 
 
-  
+
+
   /*Tab contact*/
   #contact iframe {
       width: 350px;
@@ -1280,76 +1288,15 @@ padding: 0 0 5px 0;
   }
   
   
-  /*Tab Degrés*/
-  #degres h1 {
-    padding:30px 0 0 0;  
-  }
-  #degres h2 {
-    margin: 20px 0;  
-  }
-  
-  #degres img{
-    width: 80%;
-  }
-  #degres .all-degres {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  }
-  #degres article {
-  width: 350px;
-  margin: 10px 0 40px 0;
-  }
   
   
-  /*Degrés détaillé*/
-  #degres-details h1 {
-    padding: 30px 0 10px 0;  
-  }
-  #degres-details .all-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  #degres-details article {
-    width: 40%;
-    margin: 10px;
-  }
   
-  /*Degrés détaillé série*/
-  #degres-details-serie h1 {
-    padding: 30px 0 0 0;  
-  }
-  #degres-details-serie iframe {
-    height: 500px;
-  }
-  #degres-details-serie h3 {
-    margin: -30px 0 5px 0;
-  }
-  #degres-details-serie .descriptifs div p{
-    font-size: 16px;
-  }
-  
-  
-  /* Tab menu faq pratique */
-    .info-menu-title{
-      margin: 25px 0 10px 0;
-    }
-    .info-menu a p{
-      padding: 5px 10px;
-      width: 180px;
-    }
-    #faq article {
-      margin:60px 0;
-      padding: 20px 0 0 0;
-    }
+
   
   
   
   }
-  
+  /*end tab style*/
   
   
   
