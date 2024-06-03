@@ -1135,13 +1135,12 @@ padding: 0 0 5px 0;
       margin: 25px 0 0 0;
     }
   
-    /*Tab Bureau h2*/
+    /*Tab Artistes h2*/
     #artistes .img-artistes {
       width: 400px;
-
     }
     #artiste-ariane, #artiste-jessica, #artiste-mike {
-      padding: 30px 0 0 0;
+      padding: 10px 0 0 0;
     }
   
     /*Tab liste article comportement*/
