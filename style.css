@@ -1437,6 +1437,29 @@ padding: 0 0 5px 0;
     }
 
 
+    /*Desk services*/
+    #services h2 {
+      margin-top: 0px;
+    }
+    #services .no-flip-card {
+      width: 996px;
+      padding-bottom: 0;
+    }
+    #services .section1-3{
+      width: 320px;
+      border-radius: 20px 0 0 5px;
+      margin: 5px;
+    }
+    #services .section2-3{
+      margin: 5px 0px;
+      border-radius: 0;
+      width: 330px;
+    }
+    #services .section3-3{
+      border-radius: 0 5px 20px 0;
+      margin: 5px;
+    }
+
 
 
 
@@ -1557,25 +1580,7 @@ padding: 0 0 5px 0;
         margin: 50px 0 0 -325px;
       }
     
-      /*Desk services*/
-      #services .no-flip-card {
-        width: 996px;
-        padding-bottom: 0;
-      }
-      #services .section1-3{
-        width: 320px;
-        border-radius: 20px 0 0 5px;
-        margin: 5px;
-      }
-      #services .section2-3{
-        margin: 5px 0px;
-        border-radius: 0;
-        width: 330px;
-      }
-      #services .section3-3{
-        border-radius: 0 5px 20px 0;
-        margin: 5px;
-      }
+      
   
   
   
