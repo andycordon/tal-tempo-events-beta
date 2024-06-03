@@ -1306,6 +1306,7 @@ padding: 0 0 5px 0;
     header {
       height: 150px;
       border: none;
+      margin-bottom: -150px;
     }
     header p {
       font-family:pacifico;
@@ -1356,20 +1357,22 @@ padding: 0 0 5px 0;
     }
 
 
-
-
-
-
-
-
-/*REFACTORY HERE*/
-
     /*Desk section 1*/
     #section1 {
-      justify-content: space-around;
-      height: 800px;
+      height: 100vh;
+      /* background-color: green; */
     }
-  
+    .vinyle {
+      width: 350px;
+      margin: 40px 0 0 -150px;
+    }
+    .logoAccueil{
+      width: 180px;
+      margin: 40px 0 0 70px;
+      padding:0px;
+    }
+    
+    
     #section2 p, #section5 p{
       text-align: left;
       padding: 0 100px 0 10px;
@@ -1393,16 +1396,15 @@ padding: 0 0 5px 0;
   
   
   
-  
-    .vinyle {
-      width: 160px;
-      margin: -8px 0 0 -279px;
-    }
-    .logoAccueil{
-      width: 500px;
-      height: auto;
-    }
-  
+
+
+
+
+
+
+    /*REFACTORY HERE*/
+    
+    
     /*Desk lancer de vinyle twirleuse*/
     .note-elevation {
       margin:-50px 0px 0px 320px;
