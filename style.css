@@ -962,7 +962,7 @@ iframe {
   }
 
 
-/*faq pratiques*/
+/*faq*/
 .info-title {
     padding: 100px 0 0 0;
     margin-bottom: -60px;
@@ -1128,7 +1128,7 @@ padding: 0 0 5px 0;
   
   
     /*Tab margin top all page*/
-    #artistes h1, #actualites h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
+    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1  {
       margin: -75px 0 0 0;
     }
     .info-title {
@@ -1158,9 +1158,7 @@ padding: 0 0 5px 0;
   }
   
   /*Tab archives*/
-  #archives h1 {
-    padding: 25px 0 0 0;  
-  }
+
   #archives .archives-menu{
     flex-direction: row;
     flex-wrap: wrap;
