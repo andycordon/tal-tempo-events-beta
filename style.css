@@ -1333,7 +1333,7 @@ padding: 0 0 5px 0;
       opacity: 1;
       transform: scale(1);
       display: block;
-      border-radius: 20px;
+      border-radius: 20px 10px 20px 10px;
       border: 1px solid #fff;
       background-color: #FF2D43;
       color: #000;
