@@ -1104,7 +1104,7 @@ padding: 0 0 5px 0;
       grid-column:2/3;
       grid-row: 1/2;
     }
-    #section2 p, #section4 article p, #section6 article p{
+    #section2 p, #section4 p, #section6 p{
       grid-column:2/3;
       grid-row: 2/3;
       margin:0px 0 0 0;
@@ -1121,7 +1121,7 @@ padding: 0 0 5px 0;
     #section3 p, #section5 p{
       grid-column:1;
       grid-row: 2;
-      margin:0px 0 0 0;
+      margin:0;
       padding:0 10px;
     }
     #section2 h1{
@@ -1372,29 +1372,38 @@ padding: 0 0 5px 0;
       padding:0px;
     }
     
-    
-    #section2 p, #section5 p{
+
+  /*section 2 3 4 5 6 7 desk*/
+    #section2 h1, #section3 h1, #section4 h1, #section5 h1, #section6 h1, #section7 h1{
+    padding: 0;
+    }
+    #section2 article, #section3 article, #section4 article, #section5 article, #section6 article, #section7 article{
+    width: 1000px;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    }
+    #section2 img, #section3 img, #section4 img, #section5 img, #section6 img{
+      width: 400px;
+      margin-right: 10px;
+    }
+    #section3 img, #section5 img{
+      width: 400px;
+      margin-left: 10px;
+    }
+    #section2 h2, #section4 h2, #section6 h2{
       text-align: left;
-      padding: 0 100px 0 10px;
-      margin:0 0 0 -70px;
     }
-    #section2 h2, #section5 h2{
+    #section3 h2, #section5 h2{
+      text-align: right;
+    }
+    #section2 p, #section4 p, #section6 p{
       text-align: left;
-      padding: 10px 100px 0 10px;
-      margin:0 0 0 -70px;
+      padding:0 20px 0 0;
     }
-    #section4 p, #section6 p{
+    #section3 p, #section5 p{
       text-align: right;
-      padding: 0 10px 0 100px;
-      margin:0 -70px 0 0px;
+      padding: 0 0 0 20px;
     }
-    #section4 h2, #section6 h2{
-      text-align: right;
-      padding: 10px 10px 0 100px;
-      margin:0 -70px 0 0px;
-    }
-  
-  
   
 
 
@@ -1585,80 +1594,12 @@ padding: 0 0 5px 0;
   
   
   
-  
-        #section3 .right-article, #section3 .left-article{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: 55px 30px 1fr;
-        }
-        #section3 .date-article{
-          display: block;
-        }
-        #section3 .left-article p{
-          text-align: left;
-          padding: 0 100px 0 10px;
-          margin:0 0px 0 -70px;
-        }      
-        #section3 .left-article h2{
-          text-align: left;
-          padding: 10px 0px 0 10px;
-          margin:0 0px 0 -70px;
-        }      
-        #section3 .right-article .date-article{
-          display: block;
-          grid-column:1;
-          grid-row: 2;
-        }
-        #section3 .right-article h2{
-          text-align: right;
-          padding: 10px 10px 0 100px;
-          margin:0 -70px 0 0px;
-        }
-        #section3 .right-article p{
-          text-align: right;
-          padding: 0 10px 0 100px;
-          margin:0 -70px 0 0px;
-        }
-        .logos:after {
-          width: 400px;
-        }
+
         footer {
           position: absolute;
           left: 0;
           right: 0;
         }
-  
-        /*Desk Degrés*/
-        #degres h1 {
-          padding:100px 0 0 0;  
-        }
-        #degres article {
-        width: 300px;
-        }
-        /*Degrés détaillé*/
-        #degres-details h1 {
-          padding: 100px 0 10px 0;  
-        }
-        #degres-details article {
-          width: 25%;
-        }
-  
-        /*Degrés détaillé série*/
-        #degres-details-serie h1 {
-          padding: 100px 0 0 0;  
-        }
-        #degres-details-serie iframe {
-          width: 80%;
-        }
-        #degres-details-serie div{
-          width: 20%;
-        }
-        #degres-details-serie div img{
-          width: 100%;
-        }
-        
-        
-        
-        
+  /*End desk*/       
       }
   
