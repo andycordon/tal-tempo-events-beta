@@ -1460,7 +1460,11 @@ padding: 0 0 5px 0;
       margin: 5px;
     }
 
-
+    
+    /*Desk archives*/
+    #archives .archives-menu a{
+      width: 25%;
+    }
 
 
 
@@ -1469,24 +1473,53 @@ padding: 0 0 5px 0;
 
     /*REFACTORY HERE*/
     
-    #contact .note-elevation {
-      margin:-50px 0px 0px 320px;
+    /*Desk contact*/
+    .contact-faq {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
     }
-    
-
+    #contact iframe {
+      width: 1000px;
+      height: 300px;
+      z-index: 2;
+      margin: 20px 0 20px -690px;
+    }
+    .tel-mail {
+      display: flex;
+      justify-content: space-around;
+      z-index: 2;
+      }
+      .tel-mail a, .txt-location {
+        margin: 0;
+        width: 380px;
+      }
+      .localisation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px;
+      }
+      
+      .reseaux a {
+        margin: 20px 50px;
+      }
+      @keyframes elevation-contact {
+        to {
+          margin-top: -850px;
+        }
+      }
+      .note {
+        position: absolute;
+        width: 110px;
+        margin: 50px 0 0 -325px;
+      }
+      #contact .note-elevation {
+        margin:-50px 0px 0px 320px;
+      }
+      
+      
   
-  /*Desk archives*/
-
-  #archives .archives-menu{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  
-  }
-  #archives .archives-menu a{
-    margin: 10px;
-    width: 25%;
-  }
 
 
 
@@ -1494,14 +1527,7 @@ padding: 0 0 5px 0;
 
   
         /*Desk articles*/
-  
-        #article img {
-          width: 50%;
-        }
-        #article iframe {
-          width: 50%;
-          height: 400px;
-        }
+
       
   
         /*Desk faq pratiques*/
@@ -1538,47 +1564,7 @@ padding: 0 0 5px 0;
     }
   
   
-       /*Desk contact*/
-       .contact-faq {
-        display: flex;
-        justify-content: center;
-        z-index: 2;
-      }
-      #contact iframe {
-        width: 1000px;
-        height: 300px;
-        z-index: 2;
-        margin: 20px 0 20px -690px;
-      }
-      .tel-mail {
-        display: flex;
-        justify-content: space-around;
-        z-index: 2;
-      }
-      .tel-mail a, .txt-location {
-        margin: 0;
-        width: 380px;
-      }
-      .localisation {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0px 0px;
-      }
-      
-      .reseaux a {
-        margin: 20px 50px;
-      }
-      @keyframes elevation-contact {
-        to {
-          margin-top: -850px;
-        }
-      }
-      .note {
-        position: absolute;
-        width: 110px;
-        margin: 50px 0 0 -325px;
-      }
+     
     
       
   
