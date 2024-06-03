@@ -1143,39 +1143,34 @@ padding: 0 0 5px 0;
     }
 
     /*Tab services*/
+    .fa-circle-arrow-right{
+      display: none;
+    }
     #services .section1-3{
       cursor: default;
+      border-radius: 20px 5px 0 0;
     }
+
     #services .section2-3{
       margin: 0px 0px -5px -5px;
-      border-radius: 0 0 0 20px;
+      border-radius: 0 0 0 5px;
       width: 326px;
-    }
-    #services iframe{
-      border: none;
-      border-top: 1px #fff solid;
-      border-radius: 0 0 0 19px;
-      padding: 0;
     }
     #services .section3-3{
       margin: 0px -5px 5px 5px;
       border-radius: 0 0 20px 0;
     }
-    #services .section3-3 img{
-      border-radius: 0 0 20px 0;
-    }
-    .fa-circle-arrow-right{
-      display: none;
-    }
+
     #services .no-flip-card {
       flex-wrap: wrap;
       justify-content: center;
       width: 666px;
       margin: 0 auto;
     }
-    #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5{
+    #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5, #services .img-6, #services .img-7, #services .img-8, #services .img-9, #services .img-10, #services .img-11, #services .img-12, #services .img-13, #services .img-14, #services .img-15, #services .img-16, #services .img-17, #services .img-18, #services .img-19, #services .img-20{
+      background-position: 50% 50%;
       width: 100%;
-      border-radius: 20px 20px 0 0;
+      height: 180px;
     }
     
     #services .no-flip-card {
@@ -1633,11 +1628,11 @@ padding: 0 0 5px 0;
       #services .entrainement-descriptions {
         width: 50%;
         }   
-      #services .section1-3{
+      /* #services .section1-3{
         width: 320px;
         border-radius: 20px 0 0 20px;
         margin: 5px;
-      }
+      } */
       #services .section2-3{
         margin: 5px 0px;
         border-radius: 0;
