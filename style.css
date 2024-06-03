@@ -1062,6 +1062,7 @@ padding: 0 0 5px 0;
       align-items: center;
       justify-content: center;
       height: 400px;
+      padding-left: 180px;
     }
     .vinyle {
       width: 240px;
@@ -1077,14 +1078,14 @@ padding: 0 0 5px 0;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      padding: 0 20px;
+      padding: 0 40px;
+      margin: 0;
     }
     #section1 .buttonDecouverte {
       width: 250px;
       height: 50px;
-      padding: 12px 0 10px 0;
       position: absolute;
-      margin-top: 200px;
+      margin: 200px 0 0 0;
     }
     
 /* Section 2 ACCUEIL tab*/
