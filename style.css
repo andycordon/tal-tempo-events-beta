@@ -1278,31 +1278,21 @@ padding: 0 0 5px 0;
       opacity: 0;
     }
   }
- 
-  
-  
-  
-  
-  
-  /*REFACTORY HERE*/
-  
-  
-  
-  
-  
-}
+
   /*end tab style*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*REFACTORY HERE*/
   
   
   
@@ -1315,25 +1305,25 @@ padding: 0 0 5px 0;
   
     .buttonMenu {
       display: none;
-      position: absolute;
     }
     .logo {
       width: 125px;
-      margin: 0px 0 0 10px;
       position: absolute;
-      left: 0;
+      left: 15px;
     }
     header {
       height: 150px;
       border: none;
     }
-    header a {
-      width: 100%;
-    }
     header p {
+      font-family:pacifico;
       font-size: 40px;
       font-weight: 900;
     }
+    header a {
+      width: 100%;
+    }
+
     /*Desk barre de menu*/
     nav {
       display: flex;
