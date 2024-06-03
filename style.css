@@ -719,7 +719,7 @@ iframe {
     background-image: url("./img/services-enterement.png");  
   }
   
-    
+
   /*Actualites*/
   #actualites h1 {
     padding: 100px 0 0 0;  
@@ -1032,25 +1032,20 @@ padding: 0 0 5px 0;
 }
 
 /*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
+/*#portfolio*/
 
 
 
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
   
 /*Tab style*/
     @media (min-width: 768px) {
+      
 /*Menu tab*/
   #check:checked ~ nav {
     background-color: #000;
@@ -1061,6 +1056,7 @@ padding: 0 0 5px 0;
   header {
     position: relative;
   }
+
 /* Section 1 ACCUEIL tab*/
     #section1 {
       display: flex;
@@ -1093,6 +1089,7 @@ padding: 0 0 5px 0;
       margin: 200px 0 0 0;
     }
     
+
 /* Section 2 ACCUEIL tab*/
     #section2 article, #section3 article, #section4 article, #section5 article, #section6 article{
       display: grid;
@@ -1147,6 +1144,7 @@ padding: 0 0 5px 0;
       padding: 10px 0 0 0;
     }
 
+    
     /*Tab services*/
     #services h1{
       margin-bottom: -10px;
@@ -1184,6 +1182,7 @@ padding: 0 0 5px 0;
       width: 100%;
     }
 
+
     /*Tab articles*/
     #actualites article{
       display: flex;
@@ -1219,41 +1218,27 @@ padding: 0 0 5px 0;
     margin:40px 0;
     padding: 20px 0 0 0;
   }
-  
-  
-
-
-
-
-
-
-
-
-
-
-  /*REFACTORY HERE*/
-  
 
   
   /*Tab contact*/
   #contact iframe {
-      width: 350px;
-      height: 350px;
+    width: 350px;
+    height: 350px;
       margin: 0;
     }
-  .tel-mail {
-    display: flex;
-    justify-content: center;
-  }
-  .tel-mail a, .txt-location {
-    margin: 0;
-    width: 350px;
-  }
-  .localisation {
-    display: flex;
-    justify-content: center;
-    margin: 60px 0px;
-  }
+    .tel-mail {
+      display: flex;
+      justify-content: center;
+    }
+    .tel-mail a, .txt-location {
+      margin: 0;
+      width: 350px;
+    }
+    .localisation {
+      display: flex;
+      justify-content: center;
+      margin:20px 0px;
+    }
   .reseaux {
     display: flex;
     flex-wrap: wrap;
@@ -1265,38 +1250,47 @@ padding: 0 0 5px 0;
     margin: 0 20px;
     z-index: 2;
   }
-  
- 
-  
-  /*Lancer twirleuse*/
-  @keyframes elevation-contact {
-    to {
-      margin-top: -850px;
+  @keyframes contact-elevation-note {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+        transform: rotate(270deg);
+        margin-top: -900px;
+        opacity: 0;
+      }
+  }
+  @keyframes contact-elevation-note2 {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-270deg);
+      margin-top: -900px;
+      opacity: 0;
     }
   }
-  .note {
-    position: absolute;
-    width: 110px;
-    margin: 44px 0 0 -156px;
-  }
-  
-  .img-mic-danse {
-    width: 160px;
-  }
-  
-  .logos:after {
-    width: 250px;
-  }
+ 
   
   
   
   
   
-
+  /*REFACTORY HERE*/
   
   
   
-  }
+  
+  
+}
   /*end tab style*/
   
   
