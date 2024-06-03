@@ -1136,7 +1136,11 @@ padding: 0 0 5px 0;
     }
   
     /*Tab Bureau h2*/
-    #artistes-bureau, #artistes-coachs, #artistes-licencies {
+    #artistes .img-artistes {
+      width: 400px;
+
+    }
+    #artiste-ariane, #artiste-jessica, #artiste-mike {
       padding: 30px 0 0 0;
     }
   
