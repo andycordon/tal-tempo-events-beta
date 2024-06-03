@@ -1193,33 +1193,26 @@ padding: 0 0 5px 0;
          /*REFACTORY HERE*/
 
   
-    /*Tab liste article comportement*/
+    /*Tab articles*/
     #actualites article{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
     #actualites .card{
-    margin: 0 10px 10px 10px;
-    width: 330px;
+    margin: 5px;
   }
     #actualites img{
     width: 310px;
   }
     #actualites .button-article{
-    margin: -56px 0 0 171px;
+    margin: -57px 0 0 172px;
   }
   
   /*Tab archives*/
-
-  #archives .archives-menu{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   #archives .archives-menu a{
     margin: 10px;
-    width: 40%;
+    width: 50%;
   }
   
     /*Tab article*/
