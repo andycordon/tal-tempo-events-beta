@@ -1291,18 +1291,10 @@ padding: 0 0 5px 0;
 
 
 
-
-/*REFACTORY HERE*/
-  
-  
-  
-  
-  
-  
-  
   /*Desktop style*/
   @media (min-width: 1024px) {
-  
+
+  /*Header desk*/
     .buttonMenu {
       display: none;
     }
@@ -1324,6 +1316,7 @@ padding: 0 0 5px 0;
       width: 100%;
     }
 
+
     /*Desk barre de menu*/
     nav {
       display: flex;
@@ -1343,25 +1336,34 @@ padding: 0 0 5px 0;
       border-radius: 20px;
       border: 1px solid #fff;
       background-color: #FF2D43;
-      color: white;
+      color: #000;
       font-weight: 600;
       font-size: 15px;
       padding: 8px 0px;
       margin: 0 5px;
       box-shadow: -1px 3px 5px #818181;
-  
     }
     nav a:hover {
-      background-color: #fff;
-      color: black;
-      border: 1px solid #fff;
+      background-color: #001F3F;
+      color: #fff;
+      border: 1px solid transparent;
       box-shadow: none;
     }
     .menu-active {
       background-color: #000;
-      color: #FF2D43;
+      color: #fff;
       box-shadow: none; 
     }
+
+
+
+
+
+
+
+
+/*REFACTORY HERE*/
+
     /*Desk section 1*/
     #section1 {
       justify-content: space-around;
