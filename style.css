@@ -1149,6 +1149,9 @@ padding: 0 0 5px 0;
     #services .section1-3{
       cursor: default;
       border-radius: 20px 5px 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     #services .section2-3{
@@ -1170,7 +1173,6 @@ padding: 0 0 5px 0;
     #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5, #services .img-6, #services .img-7, #services .img-8, #services .img-9, #services .img-10, #services .img-11, #services .img-12, #services .img-13, #services .img-14, #services .img-15, #services .img-16, #services .img-17, #services .img-18, #services .img-19, #services .img-20{
       background-position: 50% 50%;
       width: 100%;
-      height: 180px;
     }
     
     #services .no-flip-card {
