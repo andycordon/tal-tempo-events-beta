@@ -139,11 +139,11 @@ iframe {
     width: 100%;
     height: 0;
     padding: 0 5px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 10px;
   }
   #check:checked ~ nav {
     background-color: #000;
-    height: 345px;
+    height: 355px;
   }
   nav a {
     text-decoration: none;
@@ -1052,10 +1052,15 @@ padding: 0 0 5px 0;
 /*Tab style*/
     @media (min-width: 768px) {
 /*Menu tab*/
-    /* Header tab */
-    header {
-      position: relative;
-    }
+  #check:checked ~ nav {
+    background-color: #000;
+    height: 355px;
+  }
+
+/* Header tab */
+  header {
+    position: relative;
+  }
 /* Section 1 ACCUEIL tab*/
     #section1 {
       display: flex;
@@ -1162,8 +1167,8 @@ padding: 0 0 5px 0;
     #services .section3-3{
       margin: 0px -5px 5px 5px;
       border-radius: 0 0 20px 0;
+      width: 319px;
     }
-
     #services .no-flip-card {
       flex-wrap: wrap;
       justify-content: center;
@@ -1174,13 +1179,8 @@ padding: 0 0 5px 0;
       background-position: 50% 50%;
       width: 100%;
     }
-    
-    #services .no-flip-card {
-      margin-bottom: 20px;
-    }
-    #services .entrainement-descriptions {
-    width: 666px;
-    }
+  
+
 
 
 
