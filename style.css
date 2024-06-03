@@ -1294,6 +1294,22 @@ padding: 0 0 5px 0;
   /*Desktop style*/
   @media (min-width: 1024px) {
 
+    /*Desktop margin top all page*/
+    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #article h1, #archives h1{
+      padding: 200px 0 0 0;
+      margin: 0px 0 0 0;
+    } 
+    .faq-title {
+      padding: 200px 0 0 0;
+      margin: 0px 0 -180px 0;
+    }
+
+    /*Desk all size article img*/
+    article img {
+      width: 400px;
+      margin: auto;
+    }
+
   /*Header desk*/
     .buttonMenu {
       display: none;
@@ -1414,6 +1430,14 @@ padding: 0 0 5px 0;
     }
   
 
+    /*Artistes desktop*/
+    #artistes .flip-card-front img {
+      width: 100%;
+    }
+
+
+
+
 
 
 
@@ -1421,25 +1445,14 @@ padding: 0 0 5px 0;
 
     /*REFACTORY HERE*/
     
-    
-    /*Desk lancer de vinyle twirleuse*/
-    .note-elevation {
-      margin:-50px 0px 0px 320px;
-    }
     #contact .note-elevation {
       margin:-50px 0px 0px 320px;
     }
     
-    /*Desk all size article img*/
-    article img {
-      width: 70%;
-      margin: auto;
-    }
+
   
   /*Desk archives*/
-  #archives h1 {
-    padding: 100px 0 0 0;  
-  }
+
   #archives .archives-menu{
     flex-direction: row;
     flex-wrap: wrap;
@@ -1450,34 +1463,17 @@ padding: 0 0 5px 0;
     margin: 10px;
     width: 25%;
   }
+
+
   
   
-    /*Desktop margin top all page*/
-    #artistes h1, #actualites h1, #top-adresses h1, #services h1, #contact h1, #article h1  {
-      padding: 100px 0 0 0;
-      margin: 0px 0 0 0;
-    }
-    .info-title {
-        padding: 100px 0 0 0;
-        margin: 0px 0 -180px 0;
-      }
+
       
   
-      #artistes ul {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      #artistes li.carousel-item {
-        margin: 20px 10px;
-        display: flex;
-        justify-content: center;
-      }
-      #artistes .carousel-items {
-        overflow-x: hidden;
-      }
-      #section8 .logos {
-        overflow-x: hidden;
-      }
+
+
+
+
   
         /*Desk articles*/
   
