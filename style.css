@@ -1215,15 +1215,16 @@ padding: 0 0 5px 0;
     width: 50%;
   }
   
-    /*Tab article*/
+  /*Tab article*/
+  #article img {
+    width: 50%;
+  }
+
   
-    #article img {
-      width: 70%;
-    }
-    #article iframe {
-      width: 70%;
-      height: 350px;
-    }
+
+
+
+
   
   /*Tab contact*/
   #contact iframe {
