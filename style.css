@@ -963,10 +963,11 @@ iframe {
 
 
 /*faq*/
-.info-title {
+.faq-title {
     padding: 100px 0 0 0;
     margin-bottom: -60px;
   }
+
   #faq h2 {
     padding: 0 0 20px 0;  
     border-bottom: 1px solid #fff;
@@ -1296,7 +1297,7 @@ padding: 0 0 5px 0;
 
     /*Desktop margin top all page*/
     #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #article h1, #archives h1{
-      padding: 200px 0 0 0;
+      padding: 220px 0 0 0;
       margin: 0px 0 0 0;
     } 
     .faq-title {
@@ -1465,12 +1466,6 @@ padding: 0 0 5px 0;
   }
 
 
-  
-  
-
-      
-  
-
 
 
 
@@ -1562,37 +1557,24 @@ padding: 0 0 5px 0;
         margin: 50px 0 0 -325px;
       }
     
-      /*Desk entrainement*/
+      /*Desk services*/
       #services .no-flip-card {
         width: 996px;
         padding-bottom: 0;
       }
-      #services .carousel-items {
-        overflow-x: hidden;
-      }
-      #services .entrainement-descriptions {
-        width: 50%;
-        }   
-      /* #services .section1-3{
+      #services .section1-3{
         width: 320px;
-        border-radius: 20px 0 0 20px;
+        border-radius: 20px 0 0 5px;
         margin: 5px;
-      } */
+      }
       #services .section2-3{
         margin: 5px 0px;
         border-radius: 0;
         width: 330px;
       }
-      #services iframe{
-        border-radius: 0;
-      }
       #services .section3-3{
-        border-radius: 0 20px 20px 0;
+        border-radius: 0 5px 20px 0;
         margin: 5px;
-      }
-      #services .section3-3 img{
-        width: 100%;
-        border-radius: 0 20px 20px 0;
       }
   
   
