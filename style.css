@@ -619,7 +619,7 @@ iframe {
   #services .no-flip-card {
     display: flex;  
     border: 3px solid #fff;
-    border-radius: 25px;
+    border-radius: 25px 10px 25px 10px;
   }
   #services .no-flip-card-inner{
     width: 320px;
@@ -630,7 +630,7 @@ iframe {
     background-size: cover;
   }
   #services .section1-3{
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 5px;
   }
   #services h3 {
     margin:20px 0px 10px 0px;
@@ -656,7 +656,7 @@ iframe {
   #services .section3-3{
     background: linear-gradient(90deg, #8e8e8e 0%, #fff 100%);
     padding: 10px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 5px 20px 0;
   }
   #services .img-1{
     background-image: url("./img/services-comedies-musicales.png");  
@@ -1039,7 +1039,7 @@ padding: 0 0 5px 0;
 
 
 
-     /*REFACTORY HERE*/
+
   
   
   
@@ -1126,7 +1126,6 @@ padding: 0 0 5px 0;
       padding: 80px 0 0 0;
     }
   
-  
     /*Tab margin top all page*/
     #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1  {
       margin: -75px 0 0 0;
@@ -1142,6 +1141,60 @@ padding: 0 0 5px 0;
     #artiste-ariane, #artiste-jessica, #artiste-mike {
       padding: 10px 0 0 0;
     }
+
+    /*Tab services*/
+    #services .section1-3{
+      cursor: default;
+    }
+    #services .section2-3{
+      margin: 0px 0px -5px -5px;
+      border-radius: 0 0 0 20px;
+      width: 326px;
+    }
+    #services iframe{
+      border: none;
+      border-top: 1px #fff solid;
+      border-radius: 0 0 0 19px;
+      padding: 0;
+    }
+    #services .section3-3{
+      margin: 0px -5px 5px 5px;
+      border-radius: 0 0 20px 0;
+    }
+    #services .section3-3 img{
+      border-radius: 0 0 20px 0;
+    }
+    .fa-circle-arrow-right{
+      display: none;
+    }
+    #services .no-flip-card {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 666px;
+      margin: 0 auto;
+    }
+    #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5{
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+    }
+    
+    #services .no-flip-card {
+      margin-bottom: 20px;
+    }
+    #services .entrainement-descriptions {
+    width: 666px;
+    }
+
+
+
+
+
+
+
+
+
+         /*REFACTORY HERE*/
+
   
     /*Tab liste article comportement*/
     #actualites article{
@@ -1213,48 +1266,7 @@ padding: 0 0 5px 0;
     z-index: 2;
   }
   
-  /*Tab entrainement*/
-  #services .section1-3{
-   cursor: default;
-  }
-  #services .section2-3{
-    margin: 0px 0px -5px -5px;
-    border-radius: 0 0 0 20px;
-    width: 326px;
-  }
-  #services iframe{
-    border: none;
-    border-top: 1px #fff solid;
-    border-radius: 0 0 0 19px;
-    padding: 0;
-  }
-  #services .section3-3{
-    margin: 0px -5px 5px 5px;
-    border-radius: 0 0 20px 0;
-  }
-  #services .section3-3 img{
-    border-radius: 0 0 20px 0;
-  }
-  .fa-circle-arrow-right{
-    display: none;
-  }
-  #services .no-flip-card {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 666px;
-    margin: 0 auto;
-  }
-  #services .img-1, #services .img-2, #services .img-3, #services .img-4, #services .img-5{
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-  }
-  
-  #services .no-flip-card {
-    margin-bottom: 20px;
-  }
-  #services .entrainement-descriptions {
-  width: 666px;
-  }
+ 
   
   /*Lancer twirleuse*/
   @keyframes elevation-contact {
