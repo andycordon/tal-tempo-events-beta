@@ -1130,11 +1130,8 @@ padding: 0 0 5px 0;
     }
   
     /*Tab margin top all page*/
-    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1  {
+    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1, .faq-title  {
       margin: -75px 0 0 0;
-    }
-    .faq-title {
-      margin: 25px 0 0 0;
     }
   
     /*Tab Artistes h2*/
@@ -1301,7 +1298,7 @@ padding: 0 0 5px 0;
       margin: 0px 0 0 0;
     } 
     .faq-title {
-      padding: 200px 0 0 0;
+      padding: 220px 0 0 0;
       margin: 0px 0 -180px 0;
     }
 
