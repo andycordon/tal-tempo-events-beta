@@ -203,6 +203,10 @@ iframe {
       align-items: center;
       justify-content: center;
     }
+    header p {
+      font-family:pacifico;
+    }
+
     header a p {
       margin-left: 10px;
       color: #fff;
@@ -1323,7 +1327,6 @@ padding: 0 0 5px 0;
       margin-bottom: -150px;
     }
     header p {
-      font-family:pacifico;
       font-size: 40px;
       font-weight: 900;
     }
