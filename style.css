@@ -1184,6 +1184,11 @@ padding: 0 0 5px 0;
       width: 100%;
     }
 
+  #services .carousel-items {
+    overflow-x: hidden;
+  }
+
+
 
     /*Tab articles*/
     #actualites article{
