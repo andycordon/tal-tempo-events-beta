@@ -1053,6 +1053,10 @@ padding: 0 0 5px 0;
 /*#portfolio*/
 /*#portfolio*/
 /*#portfolio*/
+  /*Archives*/
+  #portfolio h1 {
+    padding: 100px 0 0 0;  
+  }
 
 
 
@@ -1142,7 +1146,7 @@ padding: 0 0 5px 0;
     }
   
     /*Tab margin top all page*/
-    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1, .faq-title  {
+    #artistes h1, #services h1, #portfolio h1, #actualites h1, #faq h1, #contact h1, #archives h1, #article h1, .faq-title {
       margin: -75px 0 0 0;
     }
   
@@ -1555,3 +1559,124 @@ padding: 0 0 5px 0;
 
   /*End desk*/       
       }
+
+
+
+
+
+      #portfolio .logos {
+        overflow: hidden;
+        padding: 20px 0;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      #portfolio .logos:before,
+      .logos:after {
+        position: absolute;
+        top: 0;
+        content: "";
+        z-index: 1;
+        margin-top: 40px;
+        width: 40px;
+      }
+      .logos::before {
+        left: 0;
+        background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+      }
+      .logos::after {
+        right: 0;
+        background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+      }
+      #portfolio .logos:hover .logos-slide {
+        animation-play-state: paused;
+      }
+      
+      #portfolio .logos-slide {
+        display: inline-block;
+        animation: 10000ms slide infinite linear;
+      }
+      
+      #portfolio .logos-slide img {
+        height: 160px;
+        margin: 20px 10px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 3px solid #e6dbc6;
+      }
+      @keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+
+
+      /*flip card + polaroid*/
+#portfolio .flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 320px;
+  perspective: 1000px;
+}
+#portfolio .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+#portfolio .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* #club .flip-card-front img {
+  width: 100%;
+} */
+#portfolio .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#portfolio .flip-card-front {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  box-shadow: -1px 3px 5px #818181;
+}
+#portfolio .flip-card-back {
+  background-color: #fff;
+  color: #000;
+  transform: rotateY(180deg);
+  padding: 10px;
+  box-shadow: -1px 3px 5px #818181;
+}
+/*Club inclinaison polaroid*/
+#portfolio .pol1{
+  transform: rotate(-3deg);
+}
+#portfolio .pol2{
+  transform: rotate(4deg);
+}
+#portfolio .pol3{
+  transform: rotate(-6deg);
+}
+#portfolio .pol4{
+  transform: rotate(5deg);
+}
+#portfolio .pol5{
+  transform: rotate(6deg);
+}
+#portfolio .pol6{
+  transform: rotate(-4deg);
+}
+#portfolio .fa-circle-plus{
+  margin-left: 210px;
+  font-size: 20px;
+  opacity: 0.5;
+}
