@@ -1597,7 +1597,7 @@ padding: 0 0 5px 0;
 }
 #portfolio .gallerie-slide {
   display: inline-block;
-  /* animation: slide 10000ms infinite linear; */
+  animation: slide 20000ms infinite linear;
 }
 #portfolio .flip-card {
   display: inline-block;
@@ -1628,6 +1628,7 @@ padding: 0 0 5px 0;
   -webkit-backface-visibility: hidden;
   border-radius: 20px 5px 20px 5px;
   box-shadow: -1px 3px 5px #818181; 
+  white-space: normal;
 }
 #portfolio .flip-card-front {
   background-color: #fff;
@@ -1635,7 +1636,7 @@ padding: 0 0 5px 0;
 }
 #portfolio .fa-circle-plus {
   display: block;
-  margin: -10px 0 0 210px;
+  margin: -40px 0 0 210px;
   font-size: 20px;
   color: #FF2D43;
   opacity: 0.7;
@@ -1645,7 +1646,6 @@ padding: 0 0 5px 0;
   color: #000;
   transform: rotateY(180deg);
   border-radius: 5px 20px 5px 20px;
-  white-space: normal;
 }
 #portfolio .pol1 {
   transform: rotate(-3deg);
