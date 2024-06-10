@@ -1572,7 +1572,7 @@ padding: 0 0 5px 0;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  padding:20px 0;
+  padding:20px 0 0 0;
 }
 #portfolio .gallerie:hover .gallerie-slide {
   animation-play-state: paused;
@@ -1658,8 +1658,6 @@ padding: 0 0 5px 0;
     transform: translateX(-100%);
   }
 }
-
-
 #portfolio .gallerie-button {
   background: linear-gradient(to top right, #FF2D43, 70%, #001F3F);
   color: #000;
@@ -1684,12 +1682,10 @@ padding: 0 0 5px 0;
     background: linear-gradient(to top right, #001F3F, 70%, #FF2D43);
     color: #fff;
     transition: 400ms ease-out;
-
-  }
-
-  #portfolio h3 {
-    padding: 10px 0 5px 0;
-  }
-  #portfolio em {
-    font-weight: 600;
-  }
+}
+#portfolio h3 {
+  padding: 10px 0 5px 0;
+}
+#portfolio em {
+  font-weight: 600;
+}
