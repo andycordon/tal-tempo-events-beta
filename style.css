@@ -571,11 +571,12 @@ iframe {
     color: #001F3F;
     padding: 10px;
     box-shadow: -1px 3px 5px #818181;
+    border-radius: 15px 5px 15px 5px;
   }
   #artistes .flip-card-front img{
     border-radius: 0;
     padding:0px;
-    border: none;
+    border-radius: 15px 5px 15px 5px;
   }
   /*Club inclinaison polaroid*/
   #artistes .pol1{
@@ -1561,68 +1562,65 @@ padding: 0 0 5px 0;
       }
 
 
+/* Section Portfolio */
+#polaroid {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
+#polaroid h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
 
+#polaroid .logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 20px 0;
+}
 
-      #portfolio .logos {
-        overflow: hidden;
-        padding: 20px 0;
-        white-space: nowrap;
-        position: relative;
-      }
-      
-      #portfolio .logos:before,
-      .logos:after {
-        position: absolute;
-        top: 0;
-        content: "";
-        z-index: 1;
-        margin-top: 40px;
-        width: 40px;
-      }
-      .logos::before {
-        left: 0;
-        background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
-      }
-      .logos::after {
-        right: 0;
-        background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
-      }
-      #portfolio .logos:hover .logos-slide {
-        animation-play-state: paused;
-      }
-      
-      #portfolio .logos-slide {
-        display: inline-block;
-        animation: 10000ms slide infinite linear;
-      }
-      
-      #portfolio .logos-slide img {
-        height: 160px;
-        margin: 20px 10px;
-        padding: 5px;
-        border-radius: 100%;
-        border: 3px solid #e6dbc6;
-      }
-      @keyframes slide {
-        from {
-          transform: translateX(0);
-        }
-        to {
-          transform: translateX(-100%);
-        }
-      }
+#polaroid .logos::before,
+#polaroid .logos::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  z-index: 1;
+  width: 40px;
+  height: 100%;
+}
 
+#polaroid .logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(249, 249, 249, 0), rgba(249, 249, 249, 1));
+}
 
+#polaroid .logos::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(249, 249, 249, 0), rgba(249, 249, 249, 1));
+}
 
-      /*flip card + polaroid*/
-#portfolio .flip-card {
+#polaroid .logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+#polaroid .logos-slide {
+  display: inline-block;
+  animation: 20000ms slide infinite linear;
+}
+
+#polaroid .flip-card {
+  display: inline-block;
   background-color: transparent;
   width: 250px;
   height: 320px;
   perspective: 1000px;
+  margin: 0 10px;
 }
-#portfolio .flip-card-inner {
+
+#polaroid .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -1630,53 +1628,86 @@ padding: 0 0 5px 0;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-#portfolio .flip-card:hover .flip-card-inner {
+
+#polaroid .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-/* #club .flip-card-front img {
-  width: 100%;
-} */
-#portfolio .flip-card-front, .flip-card-back {
+
+#polaroid .flip-card-front,
+#polaroid .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#portfolio .flip-card-front {
-  background: #fff;
-  color: #000;
-  padding: 10px;
-  box-shadow: -1px 3px 5px #818181;
-}
-#portfolio .flip-card-back {
+
+#polaroid .flip-card-front {
   background-color: #fff;
   color: #000;
-  transform: rotateY(180deg);
-  padding: 10px;
-  box-shadow: -1px 3px 5px #818181;
+  padding: 20px;
 }
-/*Club inclinaison polaroid*/
-#portfolio .pol1{
+
+#polaroid .flip-card-back {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+#polaroid .pol1 {
   transform: rotate(-3deg);
 }
-#portfolio .pol2{
+
+#polaroid .pol2 {
   transform: rotate(4deg);
 }
-#portfolio .pol3{
+
+#polaroid .pol3 {
   transform: rotate(-6deg);
 }
-#portfolio .pol4{
+
+#polaroid .pol4 {
   transform: rotate(5deg);
 }
-#portfolio .pol5{
+
+#polaroid .pol5 {
   transform: rotate(6deg);
 }
-#portfolio .pol6{
+
+#polaroid .pol6 {
   transform: rotate(-4deg);
 }
-#portfolio .fa-circle-plus{
+
+#polaroid .fa-circle-plus {
   margin-left: 210px;
   font-size: 20px;
   opacity: 0.5;
 }
+
+#polaroid .buttonPlus {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e61652;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#polaroid .buttonPlus:hover {
+  background-color: #d0154b;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
