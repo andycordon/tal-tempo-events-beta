@@ -1564,8 +1564,24 @@ padding: 0 0 5px 0;
 
 
 
+      #portfolio .logos:before,
+      .logos:after {
+        position: absolute;
+        top: 0;
+        content: "";
+        z-index: 1;
+        margin-top: 40px;
+        width: 40px;
+      }
 
-
+      #portfolio.logos::before {
+        left: 0;
+        background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+      }
+      #portfolio.logos::after {
+        right: 0;
+        background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+      }
 
 
       
@@ -1581,7 +1597,7 @@ padding: 0 0 5px 0;
 }
 #portfolio .logos-slide {
   display: inline-block;
-  animation: 10000ms slide infinite linear;
+  animation: slide 10000ms infinite linear;
 }
 #portfolio .flip-card {
   display: inline-block;
@@ -1589,7 +1605,8 @@ padding: 0 0 5px 0;
   width: 250px;
   height: 320px;
   perspective: 1000px;
-  margin: 0 10px;
+  margin: 20px 10px;
+  padding: 5px;
 }
 #portfolio .flip-card-inner {
   position: relative;
