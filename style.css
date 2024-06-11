@@ -1619,6 +1619,7 @@ padding: 0 0 5px 0;
   height: 250px;
 }
 #portfolio .video-card-front {
+  display: inline-block;
   width: 250px;
   height: 250px;
   border-radius: 20px 5px 20px 5px;
