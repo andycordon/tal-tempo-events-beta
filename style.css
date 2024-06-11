@@ -1716,16 +1716,15 @@ padding: 0 0 5px 0;
 #portfolio em {
   font-weight: 600;
 }
-
-.buttonP {
-  background-color: red;
-  border-radius: 15px 5px 15px 5px;
-  padding: 10px 20px;
-  color: white;
-  border: none;
-  cursor: pointer;
+#portfolio .artiste-title {
+  font-size: 25px;
+  color: #FF2D43;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fff;
+  display: block;
+  margin: -56px 0 0 0;
+}
+#portfolio .artiste-button {
+  margin: -28px 0 0 215px;
 }
 
-.buttonP:hover {
-  opacity: 0.8;
-}
